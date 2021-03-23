@@ -1,0 +1,8 @@
+.welcome__info {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    word-spacing: 1em;
+    color: #000000;
+    font-family: 'DotGothic16', sans-serif;
+}

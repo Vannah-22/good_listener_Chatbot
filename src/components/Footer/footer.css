@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 30%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

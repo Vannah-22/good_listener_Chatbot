@@ -1,35 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import {
-    BrowserRouter as Router, 
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+// import './fonts/CedarvilleCursive-Regular.ttf';
+// import './fonts/DotGothic16-Regular.ttf';
+
+// import {
+//     BrowserRouter as Router, 
+//     Switch,
+//     Route,
+//     Link
+// } from "react-router-dom";
+// import About from 'about.js';
+import Header from './components/Head/Header';
+import Welcome from './components/Body/Welcome';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header"> 
-                <img src={logo} className="App-logo" alt="logo" />
-                <div>
-                    <Router>
-                        <div>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <Link to="/"> Home </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link to="/about"> About </Link>
-                                    </li> 
-                                </ul>
-                            </nav>
-                        </div>
-                    </Router>
-                </div>
-            </header>
+            <Header />
+            <Welcome />
+            <Footer />
+            
         </div>
     )
 }
