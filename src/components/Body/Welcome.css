@@ -1,8 +1,36 @@
-.welcome__info {
+.welcome__greeting {
     display: flex;
     justify-content: center;
+    font-size: 15px;
     letter-spacing: 2px;
     word-spacing: 1em;
     color: #000000;
     font-family: 'DotGothic16', sans-serif;
+}
+
+#usersName {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: solid 2px #696963;
+    border-style: ridge;
+    padding-left: 15px;
+    border-radius: 25px;
+    font-size: large;
+    width: 15em;
+    height: 3em;
+}
+
+#usersNameSubmit {
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
+    border-color:#a1db43;
+    border-radius: 25px;
+    font-size: large;
+    width: 10em;
+    height: 2em;
+    background-color: #bae576;
+    box-shadow:3px 3px #4d264d;
 }
