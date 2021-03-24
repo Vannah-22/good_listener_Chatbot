@@ -6,7 +6,7 @@ class Welcome extends React.Component {
         return (     
             <div className = "welcome">
                 <h5 className="welcome__greeting">
-                    Hi! My name is Ema. I'm an Emotion Management Assistant 
+                    Hi! My name is EMA. I'm an Emotion Management Assistant 
                     and I am here to provide you with support!
                 </h5>
 
@@ -14,23 +14,7 @@ class Welcome extends React.Component {
                 <p> 
                     <input type="text" id="usersName" name="the_name"
                     placeholder="What can I call you?" required autofocus />
-                    <input type="submit" id="usersNameSubmit" value="Continue"></input>
                 </p>
-
-
-                
-                {/* <button>
-                    Happy
-                </button>
-
-                <button>
-                    Happy
-                </button>
-
-                <button>
-                    Happy
-                </button> */}
-
             </div>
         )
     }
