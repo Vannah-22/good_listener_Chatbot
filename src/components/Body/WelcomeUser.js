@@ -1,6 +1,6 @@
 import React from 'react';
 import './WelcomeUser.css';
-import './MoodSelect';
+import MoodSelect from './MoodSelect';
 
 import {
     BrowserRouter as Router, 
@@ -9,29 +9,33 @@ import {
     Link
 } from "react-router-dom";
 
-function WelcomeUser() {
+
+class WelcomeUser extends React.Component {
+    render() {
         return (     
-            <div className = "welcome">
+            <div>
                 <h5 className="welcome__user">
                     Nice to meet you, (user).
                 </h5>
 
                 <Router> 
-                    <div className="mood-selection">
-                        <nav>
-                            <Link to="/howareyoufeelingtoday">  </Link>
-                        </nav>
-                        
+                    <div> 
+                            <Link to="/howareyoufeeling"
+                                type="submit"
+                                className="continue">
+                                Let's get started!
+                            </Link>
+                            
 
                         <Switch>
-                            <Route path="/howareyoufeelingtoday">
-                                <moodSelect />
+                            <Route path="/howareyoufeeling">
+                                <MoodSelect />
                             </Route>
                         </Switch>
-
                     </div>
                 </Router>
             </div>
         )
     }
+}
 export default WelcomeUser;

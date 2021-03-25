@@ -8,7 +8,6 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import Header from './components/Head/Header';
 import Welcome from './components/Body/Welcome';
 import MoodSelect from './components/Body/MoodSelect';
 import WelcomeUser from './components/Body/WelcomeUser';
@@ -17,31 +16,24 @@ import Footer from './components/Footer/Footer';
 function App() {
     return (
         <div className="App">
-            <Header />
                 <div>
                     <Router>
                         <div>
                             <nav>
-                                <Link to="/welcomeuser"
-                                    type="submit" 
-                                    id="usersNameSubmit" 
-                                    value="Continue" > 
-                                    Continue
-                                </Link>
-
-                                <Link to="howareyoufeeling"
-
+                                <header className="header"> 
+                                <Link to="/"> Hi, my name is E.M.A! </Link>
+                                </header>
                             </nav>
 
 
                             <Switch>
                                 <Route path="/welcomeuser">
-                                <MoodSelect/>
+                                <WelcomeUser />
                                 </Route>
 
-                                <Route
-
-
+                                <Route exact path="/">
+                                    <Welcome />
+                                </Route>
                             </Switch>
 
 
