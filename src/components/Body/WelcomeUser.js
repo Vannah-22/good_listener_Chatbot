@@ -14,7 +14,7 @@ class WelcomeUser extends React.Component {
     render() {
         return (     
             <div>
-                <h5 className="welcome__user">
+                <h5 className="std-msg">
                     Nice to meet you, (user).
                 </h5>
 

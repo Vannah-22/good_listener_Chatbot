@@ -15,6 +15,9 @@ class MoodSelect extends React.Component {
     render() {
         return (
             <div className="mood-select">
+                <div className="std-msg">
+                    How are you feeling today?
+                </div>
                 <Router>
                     <div>
                         <Link to="howareyoufeelingtoday/happy"

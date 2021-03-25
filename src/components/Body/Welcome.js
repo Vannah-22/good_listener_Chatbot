@@ -14,12 +14,12 @@ class Welcome extends React.Component {
     render() {
         return (     
             <div className = "welcome">
-                <h5 className="welcome__greeting">
+                <h5 className="std-msg">
                     I'm an Emotion Management Assistant 
                     and I am here to provide you with support!
                 </h5>
 
-                <h5 className="welcome__greeting"> What's your name? </h5>
+                <h5 className="std-msg"> What's your name? </h5>
 
                 <p> 
                     <input type="text" id="usersName" name="the_name"
