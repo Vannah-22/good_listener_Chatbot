@@ -1,6 +1,6 @@
 import './App.css';
-// import './fonts/CedarvilleCursive-Regular.ttf';
-// import './fonts/DotGothic16-Regular.ttf';
+import './fonts/EarlsRevenge-69Kg.ttf';
+
 
 import {
     BrowserRouter as Router, 
@@ -21,22 +21,16 @@ function App() {
                         <div>
                             <nav>
                                 <header className="header"> 
-                                <Link to="/"> Hi, my name is E.M.A! </Link>
+                                    <h1 id="EMA__header"> <Link to="/"> Hi, my name is E.M.A! </Link> </h1>
                                 </header>
                             </nav>
 
 
                             <Switch>
-                                <Route path="/welcomeuser">
-                                <WelcomeUser />
-                                </Route>
-
                                 <Route exact path="/">
                                     <Welcome />
                                 </Route>
                             </Switch>
-
-
                         </div>
                     </Router>
                 </div>

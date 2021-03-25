@@ -4,6 +4,16 @@
   margin-right: auto;
 }
 
+.welcome__user {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 1em;
+  color: #000000;
+  font-family: 'DotGothic16', sans-serif;
+}
+
 .continue {
   display: flex;
   justify-content: center;
@@ -19,6 +29,15 @@
   box-shadow:3px 3px #4d264d;
 }
 
+#EMA__header{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  letter-spacing: 2px;
+  word-spacing: 1em;
+  color: #000000;
+  font-family: 'DotGothic16', sans-serif;
+}
 
 #usersNameSubmit {
   display: flex;
