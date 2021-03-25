@@ -1,5 +1,5 @@
 import React from 'react';
-import 'MoodSelect.css';
+import './MoodSelect.css';
 
 // import {
 //     BrowserRouter as Router, 
@@ -14,15 +14,15 @@ class MoodSelect extends React.Component {
             <div className="mood-select">
                 <div>
                         <button className='mood-button'
-                        id='happy'>
+                        id='happy'> Happy
                         </button>
 
                         <button className='mood-button'
-                        id='sad'>
+                        id='sad'> Sad
                         </button>
 
                         <button className='mood-button'
-                        id='angry'>
+                        id='angry'> Mad
                         </button>
                 </div>
             </div>

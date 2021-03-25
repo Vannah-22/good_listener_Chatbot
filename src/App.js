@@ -11,32 +11,37 @@ import {
 import Header from './components/Head/Header';
 import Welcome from './components/Body/Welcome';
 import MoodSelect from './components/Body/MoodSelect';
-// import WelcomeUser from './components/Body/WelcomeUser';
+import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 
 function App() {
     return (
         <div className="App">
             <Header />
-            <Welcome />
                 <div>
                     <Router>
                         <div>
                             <nav>
-                                    <Link to="/howareyoufeelingtoday"
+                                <Link to="/welcomeuser"
                                     type="submit" 
                                     id="usersNameSubmit" 
                                     value="Continue" > 
                                     Continue
-                                    </Link>
+                                </Link>
+
+                                <Link to="howareyoufeeling"
 
                             </nav>
 
 
                             <Switch>
-                                <Route path="/howareyoufeelingtoday">
-                                <MoodSelect />
+                                <Route path="/welcomeuser">
+                                <MoodSelect/>
                                 </Route>
+
+                                <Route
+
+
                             </Switch>
 
 
