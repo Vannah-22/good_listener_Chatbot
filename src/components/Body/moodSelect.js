@@ -1,7 +1,7 @@
 import React from 'react';
 import './MoodSelect.css';
-import './happy/Happy';
-import Happy from './happy/Happy';
+import './Happy';
+import Happy from './Happy';
 
 import {
     BrowserRouter as Router, 
