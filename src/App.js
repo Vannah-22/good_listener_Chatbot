@@ -1,5 +1,5 @@
 import './App.css';
-import './fonts/EarlsRevenge-69Kg.ttf';
+// import './fonts/EarlsRevenge-69Kg.ttf';
 
 
 import {
@@ -9,8 +9,6 @@ import {
     Link
 } from "react-router-dom";
 import Welcome from './components/Body/Welcome';
-import MoodSelect from './components/Body/MoodSelect';
-import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 
 function App() {

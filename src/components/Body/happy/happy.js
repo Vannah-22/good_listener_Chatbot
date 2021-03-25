@@ -1,14 +1,12 @@
 import React from 'react';
 import './Happy.css';
-import WelcomeUser from './WelcomeUser';
 
-import {
-    BrowserRouter as Router, 
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-import WelcomeUser from '../WelcomeUser';
+// import {
+//     BrowserRouter as Router, 
+//     Switch,
+//     Route,
+//     Link
+// } from "react-router-dom";
 
 
 class Happy extends React.Component {
@@ -19,7 +17,7 @@ class Happy extends React.Component {
                     I'm glad you're happy! Can you explain why?
                 </h5>
 
-                <Router> 
+                {/* <Router> 
                     <div> 
                             <Link to="/howareyoufeeling/happy"
                                 type="submit"
@@ -34,7 +32,7 @@ class Happy extends React.Component {
                             </Route>
                         </Switch>
                     </div>
-                </Router>
+                </Router> */}
             </div>
         )
     }

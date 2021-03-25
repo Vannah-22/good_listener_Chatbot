@@ -1,43 +1,46 @@
+.mood-select {
+  
+  margin: 3%;
+}
+
+
 #happy {
-    display: flex;
-    justify-content: center;
-    border-style: ridge;
-    border-color:#ffc933;
-    border-radius: 25px;
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    width: 10em;
-    height: 2em;
-    background-color: #ffd35c;
-    box-shadow:3px 3px #4d264d;
-  }
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  border-style: ridge;
+  border-color:#ffc933;
+  border-radius: 25px;
+  font-size: large;
+  color: black;
+  text-decoration: none;
+  width: 7em;
+  height: 2em;
+  background-color: #ffd35c;
+  box-shadow:3px 3px #4d264d;
+}
 
 #sad {
-    display: flex;
-    justify-content: center;
     border-style: ridge;
     border-color:#1982c4;
     border-radius: 25px;
     font-size: large;
     color: black;
     text-decoration: none;
-    width: 10em;
+    width: 7em;
     height: 2em;
     background-color: #93cdf0;
     box-shadow:3px 3px #4d264d;
 }
 
 #angry {
-    display: flex;
-    justify-content: center;
     border-style: ridge;
     border-color:#ff5c61;
     border-radius: 25px;
     font-size: large;
     color: dark;
     text-decoration: none;
-    width: 10em;
+    width: 7em;
     height: 2em;
     background-color: #ff7075;
     box-shadow:3px 3px #4d264d;

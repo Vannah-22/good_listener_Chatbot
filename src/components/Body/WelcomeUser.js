@@ -20,11 +20,11 @@ class WelcomeUser extends React.Component {
 
                 <Router> 
                     <div> 
-                            <Link to="/howareyoufeeling"
-                                type="submit"
-                                className="continue">
-                                Let's get started!
-                            </Link>
+                        <Link to="/howareyoufeeling"
+                            type="submit"
+                            className="continue">
+                            Let's get started!
+                        </Link>
                             
 
                         <Switch>

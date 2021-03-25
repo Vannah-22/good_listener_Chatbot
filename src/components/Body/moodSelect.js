@@ -1,31 +1,39 @@
 import React from 'react';
 import './MoodSelect.css';
+import './happy/Happy';
+import Happy from './happy/Happy';
 
-// import {
-//     BrowserRouter as Router, 
-//     Switch,
-//     Route,
-//     Link
-// } from "react-router-dom";
+import {
+    BrowserRouter as Router, 
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
 
 class MoodSelect extends React.Component {
     render() {
         return (
             <div className="mood-select">
-                <div>
-                        <button className='mood-button'
-                        id='happy'> Happy
-                        </button>
+                <Router>
+                    <div>
+                        <Link to="howareyoufeelingtoday/happy"
+                            type="button"
+                            className="mood-button"
+                            id="happy"> Happy
+                        </Link>
+                            
+                    </div>
+                </Router>
 
-                        <button className='mood-button'
-                        id='sad'> Sad
-                        </button>
+                <Switch>
+                    <Route path="howareyoufeelingtoday/happy"> 
+                        <Happy />
+                    </Route>
+                </Switch>
 
-                        <button className='mood-button'
-                        id='angry'> Mad
-                        </button>
-                </div>
             </div>
+            
         )
     }
 }
