@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import './fonts/CedarvilleCursive-Regular.ttf';
 // import './fonts/DotGothic16-Regular.ttf';
@@ -9,7 +8,6 @@ import {
     Route,
     Link
 } from "react-router-dom";
-// import About from 'about.js';
 import Header from './components/Head/Header';
 import Welcome from './components/Body/Welcome';
 import WelcomeUser from './components/Body/WelcomeUser';
