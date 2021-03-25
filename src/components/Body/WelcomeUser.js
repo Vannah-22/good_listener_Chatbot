@@ -1,6 +1,6 @@
 import React from 'react';
 import './WelcomeUser.css';
-import MoodSelect from './MoodSelect';
+import MoodSelect from './moodSelect';
 
 import {
     BrowserRouter as Router, 
