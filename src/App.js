@@ -10,7 +10,8 @@ import {
 } from "react-router-dom";
 import Header from './components/Head/Header';
 import Welcome from './components/Body/Welcome';
-import WelcomeUser from './components/Body/WelcomeUser';
+import MoodSelect from './components/Body/MoodSelect';
+// import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
                     <Router>
                         <div>
                             <nav>
-                                    <Link to="/welcomeuser"
+                                    <Link to="/howareyoufeelingtoday"
                                     type="submit" 
                                     id="usersNameSubmit" 
                                     value="Continue" > 
@@ -33,8 +34,8 @@ function App() {
 
 
                             <Switch>
-                                <Route path="/welcomeuser">
-                                <WelcomeUser />
+                                <Route path="/howareyoufeelingtoday">
+                                <MoodSelect />
                                 </Route>
                             </Switch>
 

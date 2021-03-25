@@ -1,6 +1,6 @@
 import React from 'react';
 import './WelcomeUser.css';
-import moodSelect from './moodSelect';
+// import moodSelect from './moodSelect.js';
 
 import {
     BrowserRouter as Router, 
@@ -9,8 +9,7 @@ import {
     Link
 } from "react-router-dom";
 
-class WelcomeUser extends React.Component {
-    render() {
+function WelcomeUser() {
         return (     
             <div className = "welcome">
                 <h5 className="welcome__user">
@@ -34,5 +33,4 @@ class WelcomeUser extends React.Component {
             </div>
         )
     }
-}
 export default WelcomeUser;
