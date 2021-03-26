@@ -17,6 +17,12 @@ class WelcomeUser extends React.Component {
                 <h5 className="std-msg">
                     Nice to meet you, (user).
                 </h5>
+
+                <Router> 
+                    <div> 
+                        
+                    </div>
+                </Router>
             </div>
         )
     }
