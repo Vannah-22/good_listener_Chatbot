@@ -11,8 +11,10 @@ import {
 import Welcome from './components/Body/Welcome';
 import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
-import MoodSelect from './components/Body/moodSelect';
+import MoodSelect from './components/Body/MoodSelect';
 import Happy from './components/Body/Happy';
+// import Sad from './components/Body/Sad';
+// import Angry from './components/Body/Angry';
 
 function App() {
     return (
@@ -25,6 +27,14 @@ function App() {
                             </header>
 
                             <Switch>
+                                {/* <Route path="/howareyoufeelingtoday/angry"> 
+                                    <Angry />
+                                </Route>
+
+                                <Route path="/howareyoufeelingtoday/sad"> 
+                                    <Sad />
+                                </Route> */}
+
                                 <Route path="/howareyoufeelingtoday/happy"> 
                                     <Happy />
                                 </Route>

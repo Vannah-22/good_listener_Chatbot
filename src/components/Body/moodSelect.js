@@ -1,12 +1,9 @@
 import React from 'react';
 import './MoodSelect.css';
 import './Happy';
-import Happy from './Happy';
 
 import {
     BrowserRouter as Router, 
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 
@@ -27,14 +24,14 @@ class MoodSelect extends React.Component {
                             Happy
                         </Link>
 
-                        {/* <Link to="/howareyoufeelingtoday/sad"
+                        <Link to="/howareyoufeelingtoday/sad"
                             type="button"
                             className="mood-button"
                             id="sad"> 
                             Sad
                         </Link>
 
-                        <Link to="/howareyoufeelingtoday/angry"
+                        {/* <Link to="/howareyoufeelingtoday/angry"
                             type="button"
                             className="mood-button"
                             id="angry"> 
@@ -43,22 +40,7 @@ class MoodSelect extends React.Component {
                             
                     </div>
                 </Router>
-
-                <Switch>
-                    
-
-                    {/* <Route path="howareyoufeelingtoday/sad">
-                        <Sad />
-                    </Route>
-
-                    <Route path="howareyoufeelingtoday/angry">
-                        <Angry />
-                    </Route> */}
-
-                </Switch>
-
             </div>
-            
         )
     }
 }

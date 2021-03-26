@@ -1,6 +1,6 @@
 import React from 'react';
 import './WelcomeUser.css';
-import MoodSelect from './moodSelect';
+import MoodSelect from './MoodSelect';
 
 import {
     BrowserRouter as Router, 
@@ -29,9 +29,9 @@ class WelcomeUser extends React.Component {
                 </Router>
 
                 <Switch>
-                    {/* <Route path="/howareyoufeelingtoday"> 
+                    <Route path="/howareyoufeelingtoday"> 
                         <MoodSelect />
-                    </Route> */}
+                    </Route>
                 </Switch>
             </div>
         )
