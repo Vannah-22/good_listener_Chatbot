@@ -30,7 +30,7 @@ class Welcome extends React.Component {
                     <div> 
                         <Link to="/welcomeuser"
                             type="submit" 
-                            id="usersNameSubmit"> 
+                            className="continue"> 
                             Continue
                         </Link>
                     </div>

@@ -14,7 +14,6 @@
 }
 
 
-
 .std-msg {
   display: flex;
   justify-content: center;
@@ -40,20 +39,6 @@
   box-shadow:3px 3px #4d264d;
 }
 
-#usersNameSubmit {
-  display: flex;
-  justify-content: center;
-  border-style: ridge;
-  border-color:#a1db43;
-  border-radius: 25px;
-  font-size: large;
-  color: darkgreen;
-  text-decoration: none;
-  width: 10em;
-  height: 2em;
-  background-color: #bae576;
-  box-shadow:3px 3px #4d264d;
-}
 
 /* @font-face {
   font-family: "EarlsRevenge-69Kg.ttf";
