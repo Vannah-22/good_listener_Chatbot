@@ -23,7 +23,7 @@ function App() {
                     <Router>
                         <div>
                             <header className="header"> 
-                                <h1 id="EMA__header"> <Link to="/"> Hi, my name is E.M.A! </Link> </h1>
+                                <h1 id="EMA__header"> <Link to="/"> Hi, my name is E.M.A.! </Link> </h1>
                             </header>
 
                             <Switch>

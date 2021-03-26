@@ -1,12 +1,12 @@
 import React from 'react';
-import './Happy.css';
+import './Sad.css';
 
 class Happy extends React.Component {
     render() {
         return (     
             <div>
                 <h5 className="std-msg">
-                    I'm glad you're happy! Can you explain why?
+                    I'm sorry you feel this way. Can you explain why?
                 </h5>
             </div>
         )
