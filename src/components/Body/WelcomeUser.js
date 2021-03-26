@@ -1,6 +1,5 @@
 import React from 'react';
 import './WelcomeUser.css';
-import MoodSelect from './MoodSelect';
 
 import {
     BrowserRouter as Router, 
@@ -21,18 +20,13 @@ class WelcomeUser extends React.Component {
                 <Router> 
                     <div> 
                         <Link to="/howareyoufeelingtoday"
-                                        type="submit"
-                                        className="continue">
-                                        Let's get started!
+                            type="submit"
+                            className="continue">
+                            Let's get started!
                         </Link>
                     </div>
                 </Router>
 
-                <Switch>
-                    <Route path="/howareyoufeelingtoday"> 
-                        <MoodSelect />
-                    </Route>
-                </Switch>
             </div>
         )
     }

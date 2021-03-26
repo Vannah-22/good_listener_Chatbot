@@ -1,19 +1,17 @@
 import './App.css';
-// import './fonts/EarlsRevenge-69Kg.ttf';
-
-
 import {
     BrowserRouter as Router, 
     Switch,
     Route,
     Link
 } from "react-router-dom";
+
 import Welcome from './components/Body/Welcome';
 import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 import MoodSelect from './components/Body/MoodSelect';
 import Happy from './components/Body/Happy';
-// import Sad from './components/Body/Sad';
+import Sad from './components/Body/Sad';
 // import Angry from './components/Body/Angry';
 
 function App() {
@@ -23,23 +21,28 @@ function App() {
                     <Router>
                         <div>
                             <header className="header"> 
-                                <h1 id="EMA__header"> <Link to="/"> Hi, my name is E.M.A.! </Link> </h1>
+                                <h1 id="EMA__header"> 
+                                    <Link to="/"> 
+                                        Hi, my name is E.M.A.! 
+                                    </Link> 
+                                </h1>
                             </header>
 
+                            
                             <Switch>
                                 {/* <Route path="/howareyoufeelingtoday/angry"> 
                                     <Angry />
-                                </Route>
+                                </Route> */}
 
                                 <Route path="/howareyoufeelingtoday/sad"> 
                                     <Sad />
-                                </Route> */}
+                                </Route>
 
                                 <Route path="/howareyoufeelingtoday/happy"> 
                                     <Happy />
                                 </Route>
 
-                                <Route path="/howareyoufeelingtoday">
+                                <Route path="/howareyoufeelingday">
                                     <MoodSelect />
                                 </Route>
 
