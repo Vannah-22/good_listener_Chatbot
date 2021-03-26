@@ -23,17 +23,15 @@ function App() {
                             <header className="header"> 
                                 <h1 id="EMA__header"> <Link to="/"> Hi, my name is E.M.A! </Link> </h1>
                             </header>
-                            
-                            <Link to="/howareyoufeeling"
-                                    type="submit"
-                                    className="continue">
-                                    Let's get started!
-                                </Link>
 
                             <Switch>
-                                <Route path="/howareyoufeeling">
-                                <MoodSelect />
-                            </Route>
+                                <Route path="/howareyoufeelingtoday/happy"> 
+                                    <Happy />
+                                </Route>
+
+                                <Route path="/howareyoufeelingtoday">
+                                    <MoodSelect />
+                                </Route>
 
 
                                 <Route path="/welcomeuser">
@@ -43,9 +41,8 @@ function App() {
                                 <Route exact path="/">
                                     <Welcome />
                                 </Route>
-
-                                
                             </Switch>
+
                         </div>
                     </Router>
                 </div>

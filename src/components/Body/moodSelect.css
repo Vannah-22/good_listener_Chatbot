@@ -13,8 +13,8 @@
   font-size: large;
   color: black;
   text-decoration: none;
-  width: 7em;
-  height: 2em;
+  width: 100px;
+  height: 100px;
   background-color: #ffd35c;
   box-shadow:3px 3px #4d264d;
 }
@@ -26,8 +26,8 @@
     font-size: large;
     color: black;
     text-decoration: none;
-    width: 7em;
-    height: 2em;
+    width: 100px;
+    height: 100px;
     background-color: #93cdf0;
     box-shadow:3px 3px #4d264d;
 }
@@ -39,8 +39,8 @@
     font-size: large;
     color: dark;
     text-decoration: none;
-    width: 7em;
-    height: 2em;
+    width: 100px;
+    height: 100px;
     background-color: #ff7075;
     box-shadow:3px 3px #4d264d;
   }
