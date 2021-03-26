@@ -18,7 +18,7 @@ class Happy extends React.Component {
                         <Link to="/howareyoufeelingtoday/happy/gratitude"
                             type="button"
                             className="std-mood-buttons"> 
-                            I feel grateful!
+                            I am grateful!
                         </Link>  
 
                         <Link to="/howareyoufeelingtoday/happy/prideful"

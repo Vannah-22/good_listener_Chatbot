@@ -30,15 +30,32 @@ function App() {
                   </header>
      
                   <Switch>
-								<Route path="/howareyoufeelingtoday/angry"> 
-									<Angry />
-								</Route>
+									<Route path="howareyoufeelingtoday/sad/grief">
+										<Sad />
+									</Route>
+
+									<Route path="howareyoufeelingtoday/sad/lonliness">
+										<Sad />
+									</Route>
+									
+									<Route path="howareyoufeelingtoday/sad/boredom">
+										<Sad />
+									</Route>
 
 								<Route path="/howareyoufeelingtoday/sad"> 
 									<Sad />
 								</Route>
+									
 
 									<Route path="howareyoufeelingtoday/happy/gratitude">
+										<Happy />
+									</Route>
+
+									<Route path="howareyoufeelingtoday/happy/prideful">
+										<Happy />
+									</Route>
+
+									<Route path="howareyoufeelingtoday/happy/ex">
 										<Happy />
 									</Route>
 
@@ -46,10 +63,27 @@ function App() {
 									<Happy />
 								</Route>
 
+								
+									<Route path="howareyoufeelingtoday/angry/grief">
+										<Angry />
+									</Route>
+
+									<Route path="howareyoufeelingtoday/angry/frustration">
+										<Angry />
+									</Route>
+									
+									<Route path="howareyoufeelingtoday/angry/fearful">
+										<Angry />
+									</Route>
+
+								<Route path="/howareyoufeelingtoday/angry"> 
+									<Angry />
+								</Route>
+
 								<Route path="/howareyoufeelingtoday">
 									<MoodSelect />
 								</Route>
-
+								
 								<Route path="/welcomeuser">
 									<WelcomeUser />
 								</Route>
