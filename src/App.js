@@ -16,52 +16,49 @@ import Sad from './components/Body/Sad';
 
 function App() {
     return (
-        <div className="App">
-                <div>
-                    <Router>
-                        <div>
-                            <header className="header"> 
-                                <h1 id="EMA__header"> 
-                                    <Link to="/"> 
-                                        Hi, my name is E.M.A.! 
-                                    </Link> 
-                                </h1>
-                            </header>
+      <div className="App">
+        	<div>
+            <Router>
+               <div>
+                  <header> 
+                    <h1 className="EMA__header"> 
+                    <Link to="/"> 
+                      E.M.A.
+                    </Link> 
+                    </h1>
+                  </header>
+     
+                  <Switch>
+								{/* <Route path="/howareyoufeelingtoday/angry"> 
+									<Angry />
+								</Route> */}
 
-                            
-                            <Switch>
-                                {/* <Route path="/howareyoufeelingtoday/angry"> 
-                                    <Angry />
-                                </Route> */}
+								<Route path="/howareyoufeelingtoday/sad"> 
+									<Sad />
+								</Route>
 
-                                <Route path="/howareyoufeelingtoday/sad"> 
-                                    <Sad />
-                                </Route>
+								<Route path="/howareyoufeelingtoday/happy"> 
+									<Happy />
+								</Route>
 
-                                <Route path="/howareyoufeelingtoday/happy"> 
-                                    <Happy />
-                                </Route>
+								<Route path="/howareyoufeelingtoday">
+									<MoodSelect />
+								</Route>
 
-                                <Route path="/howareyoufeelingday">
-                                    <MoodSelect />
-                                </Route>
+								<Route path="/welcomeuser">
+									<WelcomeUser />
+								</Route>
 
-
-                                <Route path="/welcomeuser">
-                                    <WelcomeUser />
-                                </Route>
-
-                                <Route exact path="/">
-                                    <Welcome />
-                                </Route>
-                            </Switch>
-
-                        </div>
-                    </Router>
-                </div>
-            <Footer />
-            
+								<Route exact path="/">
+									<Welcome />
+								</Route>
+                  </Switch>
+              	</div>			
+            </Router>
         </div>
+      	<Footer />
+            
+    </div>
     )
 }
 

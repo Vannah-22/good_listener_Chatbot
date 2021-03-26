@@ -18,13 +18,13 @@ class MoodSelect extends React.Component {
 
                 <Router>
                     <div>
-                        <Link to="/howareyoufeelingtoday/sad"
+                        <Link to="/howareyoufeelingtoday/angry"
                             type="button"
                             className="mood-button"
-                            id="sad"> 
-                            Sad
+                            id="angry"> 
+                            Angry
                         </Link>
-
+                        
                         <Link to="/howareyoufeelingtoday/happy"
                             type="button"
                             className="mood-button"
@@ -32,12 +32,16 @@ class MoodSelect extends React.Component {
                             Happy
                         </Link>
 
-                        <Link to="/howareyoufeelingtoday/angry"
+                        <Link to="/howareyoufeelingtoday/sad"
                             type="button"
                             className="mood-button"
-                            id="angry"> 
-                            Angry
+                            id="sad"> 
+                            Sad
                         </Link>
+
+                        
+
+                        
                             
                     </div>
                 </Router>

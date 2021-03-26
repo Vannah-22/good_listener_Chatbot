@@ -4,6 +4,17 @@
   margin-right: auto;
 }
 
+.EMA__header {
+  display: flex;
+  padding: 5px;
+  text-decoration-line: none;
+  letter-spacing: 1em;
+  font-family: 'DotGothic16', sans-serif;
+
+}
+
+
+
 .std-msg {
   display: flex;
   justify-content: center;
@@ -27,16 +38,6 @@
   height: 2em;
   background-color: #bae576;
   box-shadow:3px 3px #4d264d;
-}
-
-#EMA__header{
-  display: flex;
-  justify-content: center;
-  font-size: x-large;
-  letter-spacing: 2px;
-  word-spacing: 1em;
-  color: #000000;
-  font-family: 'DotGothic16', sans-serif;
 }
 
 #usersNameSubmit {
