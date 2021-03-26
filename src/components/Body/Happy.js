@@ -1,5 +1,9 @@
 import React from 'react';
-import './Happy.css';
+import './MoodSelect.css';
+import {
+    BrowserRouter as Router, 
+    Link
+} from "react-router-dom";
 
 class Happy extends React.Component {
     render() {
@@ -9,6 +13,29 @@ class Happy extends React.Component {
                     I'm glad you're happy! Can you explain why?
                 </h5>
                 
+                <Router>
+                    <div>
+                        <Link to="/howareyoufeelingtoday/happy/gratitude"
+                            type="button"
+                            className="std-mood-buttons"> 
+                            I feel grateful!
+                        </Link>  
+
+                        <Link to="/howareyoufeelingtoday/happy/prideful"
+                            type="button"
+                            className="std-mood-buttons"> 
+                            I am proud!
+                        </Link>
+
+                        <Link to="/howareyoufeelingtoday/happy/excitement"
+                            type="button"
+                            className="std-mood-buttons"> 
+                            I feel excited!
+                        </Link>
+
+
+                    </div>
+                </Router>
             </div>
         )
     }

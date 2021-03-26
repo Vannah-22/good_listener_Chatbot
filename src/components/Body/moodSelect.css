@@ -2,7 +2,22 @@
   margin: 3%;
 }
 
-.mood-button {
+.std-mood-buttons {
+  display: flex;
+  width: 6em;
+  height: 6em;
+  border-style: ridge;
+  border-radius: 100%;
+  border-color: #ffca3a;
+  background-color: #ffd35c;
+  box-shadow: 3px 3px #4d264d;
+  text-decoration-line: none;
+  color: #2a2828;
+  justify-content: center;
+  align-content: center;
+}
+
+#angry {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,24 +28,40 @@
   text-decoration-line: none;
   font-size: x-large;
   color: #1a1a1a;
+  border-color:#ff5c61;
+  background-color: #ff7075;
+  width: 100px;
+  height: 100px;
 }
 
 #happy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-style: ridge;
+  border-radius: 100%;
+  box-shadow:3px 3px #4d264d;
+  text-decoration-line: none;
+  font-size: x-large;
+  color: #1a1a1a;
   border-color: #ffca3a;
   background-color: #ffd35c;
   width: 100px;
   height: 100px;
 }
 
-#angry {
-  border-color:#ff5c61;
-  background-color: #ff7075;
-  width: 100px;
-  height: 100px;
-
-}
-
 #sad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-style: ridge;
+  border-radius: 100%;
+  box-shadow:3px 3px #4d264d;
+  text-decoration-line: none;
+  font-size: x-large;
+  color: #1a1a1a;
   border-color:#93cef3;
   background-color: #93cdf0;
   width: 100px;

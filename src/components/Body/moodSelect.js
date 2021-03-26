@@ -20,21 +20,18 @@ class MoodSelect extends React.Component {
                     <div>
                         <Link to="/howareyoufeelingtoday/angry"
                             type="button"
-                            className="mood-button"
                             id="angry"> 
                             Angry
                         </Link>
                         
                         <Link to="/howareyoufeelingtoday/happy"
                             type="button"
-                            className="mood-button"
                             id="happy"> 
                             Happy
                         </Link>
 
                         <Link to="/howareyoufeelingtoday/sad"
                             type="button"
-                            className="mood-button"
                             id="sad"> 
                             Sad
                         </Link>
