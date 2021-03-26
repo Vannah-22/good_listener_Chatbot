@@ -12,6 +12,7 @@ import Welcome from './components/Body/Welcome';
 import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 import MoodSelect from './components/Body/moodSelect';
+import Happy from './components/Body/Happy';
 
 function App() {
     return (
@@ -24,17 +25,10 @@ function App() {
                                     <h1 id="EMA__header"> <Link to="/"> Hi, my name is E.M.A! </Link> </h1>
                                 </header>
 
-                                <Link to="welcomeuser"> </Link>
-
-                                {/*  */}
                             </nav>
 
 
                             <Switch>
-                                <Route path="/howareyoufeeling">
-                                    <MoodSelect />
-                                </Route>
-                            
                                 <Route path="/welcomeuser">
                                     <WelcomeUser />
                                 </Route>

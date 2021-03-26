@@ -17,23 +17,6 @@ class WelcomeUser extends React.Component {
                 <h5 className="std-msg">
                     Nice to meet you, (user).
                 </h5>
-
-                <Router> 
-                    <div> 
-                        <Link to="/howareyoufeeling"
-                            type="submit"
-                            className="continue">
-                            Let's get started!
-                        </Link>
-                            
-
-                        <Switch>
-                            <Route path="/howareyoufeeling">
-                                <MoodSelect />
-                            </Route>
-                        </Switch>
-                    </div>
-                </Router>
             </div>
         )
     }
