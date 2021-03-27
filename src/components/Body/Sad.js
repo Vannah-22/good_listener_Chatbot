@@ -15,19 +15,19 @@ class Sad extends React.Component {
 
                 <Router>
                     <div>
-                        <Link to="/howareyoufeelingtoday/happy/grief"
+                        <Link to="/howareyoufeelingtoday/sad/grief"
                             type="button"
                             className="std-mood-buttons"> 
                             I am grieving
                         </Link>  
 
-                        <Link to="/howareyoufeelingtoday/happy/loneliness"
+                        <Link to="/howareyoufeelingtoday/sad/loneliness"
                             type="button"
                             className="std-mood-buttons"> 
                             I feel alone
                         </Link>
 
-                        <Link to="/howareyoufeelingtoday/happy/boredom"
+                        <Link to="/howareyoufeelingtoday/sad/boredom"
                             type="button"
                             className="std-mood-buttons"> 
                             I am bored
