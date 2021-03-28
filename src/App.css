@@ -6,10 +6,7 @@
 
 .EMA__header {
   display: flex;
-  padding: 5px;
-  text-decoration-line: none;
-  letter-spacing: 1em;
-  font-family: 'DotGothic16', sans-serif;
+  text-decoration: none;
 }
 
 .std-msg {
@@ -18,8 +15,17 @@
   font-size: 15px;
   letter-spacing: 2px;
   word-spacing: 1em;
+  text-align: center;
   color: #000000;
   font-family: 'DotGothic16', sans-serif;
+}
+@media (max-width: 800px) {
+  .std-msg {
+    display:flex;
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+  }
 }
 
 .continue {

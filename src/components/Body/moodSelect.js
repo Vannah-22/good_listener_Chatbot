@@ -11,13 +11,13 @@ import {
 class MoodSelect extends React.Component {
     render() {
         return (
-            <div className="mood-select">
+            <div>
                 <div className="std-msg">
                     How are you feeling today?
                 </div>
 
                 <Router>
-                    <div>
+                    <div className="mood-select">
                         <Link to="/howareyoufeelingtoday/angry"
                             type="button"
                             id="angry"> 
@@ -35,12 +35,8 @@ class MoodSelect extends React.Component {
                             id="sad"> 
                             Sad
                         </Link>
-
-                        
-
-                        
-                            
                     </div>
+                    
                 </Router>
             </div>
         )

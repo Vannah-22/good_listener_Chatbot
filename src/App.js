@@ -15,6 +15,7 @@ import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
 
 
+
 function App() {
     return (
       <div className="App">
@@ -28,7 +29,8 @@ function App() {
                     </Link> 
                     </h1>
                   </header>
-     
+     							
+
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
 										<Sad />
