@@ -4,6 +4,7 @@ import {
     BrowserRouter as Router, 
     Link
 } from "react-router-dom";
+import './Happy_Returns';
 
 class Happy extends React.Component {
     render() {
@@ -17,7 +18,8 @@ class Happy extends React.Component {
                     <div>
                         <Link to="/howareyoufeelingtoday/happy/gratitude"
                             type="button"
-                            className="std-mood-buttons"> 
+                            className="std-mood-buttons"
+                            id="gratitude"> 
                             I am grateful!
                         </Link>  
 
