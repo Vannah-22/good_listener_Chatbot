@@ -43,3 +43,5 @@ class MoodSelect extends React.Component {
     }
 }
 export default MoodSelect;
+
+// set to refresh when clicked on

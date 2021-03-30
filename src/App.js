@@ -14,7 +14,7 @@ import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
 // import Happy_Returns from './components/Body/Happy_Returns';
 import Sad from './components/Body/Sad';
-// import EMA from './Sis_EMA.png';
+import EMA from './EMApxArt.png';
 
 
 
@@ -30,6 +30,7 @@ function App() {
                       E.M.A.
                     </Link> 
                     </h1>
+										<img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
                   </header>
      							
 
