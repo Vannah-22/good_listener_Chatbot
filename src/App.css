@@ -7,6 +7,7 @@
 .EMA__header {
   display: flex;
   text-decoration: none;
+  font-family: PlaymegamesReguler-2OOee;
 }
 
 .EMAs_Image {
@@ -29,7 +30,7 @@
   word-spacing: 1em;
   text-align: center;
   color: #000000;
-  font-family: 'DotGothic16', sans-serif;
+  font-family: 'PlaymegamesReguler-2OOee', sans-serif;
 }
 @media (max-width: 800px) {
   .std-msg {
@@ -47,6 +48,7 @@
   border-color:#a1db43;
   border-radius: 25px;
   font-size: large;
+  font-family: PlaymegamesReguler-2OOee;
   color: darkgreen;
   text-decoration: none;
   width: 10em;
@@ -56,16 +58,16 @@
 }
 
 
-/* @font-face {
-  font-family: "EarlsRevenge-69Kg.ttf";
-  src: local("EarlsRevenge");
-  url: ("./fonts/EarlsRevenge-69Kg.ttf") format("truetype");
+@font-face {
+  font-family: "PlaymegamesReguler-2OOee.ttf";
+  src: local("PlaymegamesReguler-2OOee");
+  url: ("./fonts/PlaymegamesReguler-2OOee.ttf") format("truetype");
   font-weight: normal;
-} */
+}
 
 /* @font-face {
-  font-family: "DotGothic16";
-  src: local("DotGothic16");
-  url: ("./fonts/DotGothic16-Regular.ttf") format("truetype");
+  font-family: "PlaymegamesReguler-2OOee";
+  src: local("PlaymegamesReguler-2OOee");
+  url: ("./fonts/PlaymegamesReguler-2OOee-Regular.ttf") format("truetype");
   font-weight: normal;
 } */
