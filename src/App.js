@@ -14,6 +14,7 @@ import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
 // import Happy_Returns from './components/Body/Happy_Returns';
 import Sad from './components/Body/Sad';
+// import EMA from './Sis_EMA.png';
 
 
 
