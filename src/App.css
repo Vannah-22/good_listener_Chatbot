@@ -1,21 +1,23 @@
 * {
-  background-color: thistle;
+  background-color: #1982c4;
   margin-left: auto;
   margin-right: auto;
 }
 
 .EMA__header {
   display: flex;
-  text-decoration: none;
   font-family: DotGothic16;
+  font-weight: 800;
+  font-size: 50px;
+  text-decoration: none !important;
 }
 
 .EMAs_Image {
   display: inline-flexbox;
   justify-content: flex-end;
   margin-left: 750px;
-  width: 300px;
-  height: 300px;
+  width: 20rem;
+  height: 20rem;
   border: 20px solid #e6e6e6;
   border-style: groove;
   background-color:#bae576;
@@ -32,14 +34,7 @@
   color: #000000;
   font-family: 'DotGothic16', sans-serif;
 }
-@media (max-width: 800px) {
-  .std-msg {
-    display:flex;
-    margin: 20px;
-    padding: 10px;
-    font-size: large;
-  }
-}
+
 
 .continue {
   display: flex;
@@ -54,9 +49,32 @@
   width: 10em;
   height: 2em;
   background-color: #bae576;
-  box-shadow:3px 3px #4d264d;
+  box-shadow:3px 3px #134e74;
 }
 
+@media (max-width: 800px) and (max-height: 400px) {
+  .EMA__header {
+    display: flex;
+    font-family: DotGothic16;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none !important;
+  }
+
+  .std-msg {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  .EMAs_Image {
+    display: inline-flex;
+    flex-direction: column;
+    width: 7rem;
+    height: 7rem;
+  }
+}
 
 @font-face {
   font-family: "Playmegames";
