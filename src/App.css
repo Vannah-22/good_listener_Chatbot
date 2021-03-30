@@ -59,10 +59,11 @@
 
 
 @font-face {
-  font-family: "PlaymegamesReguler-2OOee.ttf";
-  src: local("PlaymegamesReguler-2OOee");
-  url: ("./fonts/PlaymegamesReguler-2OOee.ttf") format("truetype");
+  font-family: "Playmegames";
+  font-style: normal;
   font-weight: normal;
+  url: ("./fonts/PlaymegamesReguler-2OOee.ttf") format("truetype");
+  src: local("PlaymegamesReguler-2OOee");
 }
 
 /* @font-face {
