@@ -15,16 +15,12 @@ class Angry extends React.Component {
 
                 <Router>
                     <div>
-                    <button className="std-mood-buttons"
-                            onClick="mad-returns()" 
-                            type="button"
-                            id="mad-grief">
+                        <button className="std-mood-buttons"
+                                onClick="mad-returns()" 
+                                type="button"
+                                id="mad-grief">
                         </button>
-                            function sad-returns() {
-                                document.getElementById("gratitude").innerHTML = 
-                                "I am sorry you are grieving. What you are going through must be very hard, but you do not have to face to alone";
-
-                        </div>
+                    </div>
                 </Router>
             </div>
         )

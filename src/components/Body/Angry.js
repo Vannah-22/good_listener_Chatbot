@@ -4,9 +4,16 @@ import {
     BrowserRouter as Router, 
     Link
 } from "react-router-dom";
+// import angryReturns from "./Angry_Returns";
 
-class Angry extends React.Component {
-    render() {
+function griefReturns () {
+    var madReturns= new Array ("I'm sorry you're grieving, but you do not have to face it alone",
+    "You are safe to grieve at your own pace", 
+    "Don't forget to reach out to family and friends in your time of need")
+    
+    var random=madReturns[Math.floor(Math.random() * madReturns.length)];
+    document.getElementById("griefReturns").innerHTML=random;
+    }
         return (     
             <div>
                 <h5 className="std-msg">
@@ -17,7 +24,8 @@ class Angry extends React.Component {
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/angry/grief"
                             type="button"
-                            className="std-mood-buttons"> 
+                            className="std-mood-buttons"
+                            onClick={griefReturns.random} > 
                             I am grieving
                         </Link>  
 
@@ -36,6 +44,4 @@ class Angry extends React.Component {
                 </Router>
             </div>
         )
-    }
-}
-export default Angry;
+export default griefReturns;
