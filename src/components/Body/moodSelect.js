@@ -7,9 +7,11 @@ import {
     Link
 } from "react-router-dom";
 
+function MoodSelect () {
+        const refreshPage = ()=> {
+             window.location.reload();
+        }
 
-class MoodSelect extends React.Component {
-    render() {
         return (
             <div>
                 <div className="std-msg">
@@ -41,7 +43,6 @@ class MoodSelect extends React.Component {
             </div>
         )
     }
-}
 export default MoodSelect;
 
 // set to refresh when clicked on
