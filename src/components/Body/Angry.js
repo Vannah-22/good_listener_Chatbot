@@ -14,7 +14,7 @@ class Angry extends React.Component {
                 </h5>
 
                 <Router>
-                    <div>
+                    <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/angry/grief"
                             type="button"
                             className="std-mood-buttons"> 

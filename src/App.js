@@ -6,6 +6,7 @@ import {
     Link
 } from "react-router-dom";
 
+import Header from './components/Head/Header';
 import Welcome from './components/Body/Welcome';
 import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
@@ -25,11 +26,7 @@ function App() {
             <Router>
                <div>
                   <header> 
-                    <h1 className="EMA__header"> 
-                    <Link to="/"> 
-                      E.M.A.
-                    </Link> 
-                    </h1>
+                    <Header />
 										<img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
                   </header>
      							

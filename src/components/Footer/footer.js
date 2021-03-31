@@ -9,6 +9,8 @@ class Footer extends React.Component {
                     Copyright 
                     <br /> 
                     Vanessa Jackson 2021
+                    <br />
+                    Art by Lauren Jackson 2021
                 </h5>
             </footer>
         )

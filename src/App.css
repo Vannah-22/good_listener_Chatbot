@@ -4,13 +4,6 @@
   margin-right: auto;
 }
 
-.EMA__header {
-  display: flex;
-  font-family: DotGothic16;
-  font-weight: 800;
-  font-size: 50px;
-}
-
 .EMAs_Image {
   display: flex;
   justify-content: center;
@@ -27,10 +20,7 @@
   display: inline-flexbox;
   margin: auto;
   width: max-content;
-  border-radius: 5px;
-  border: 5px solid #dadada;
-  border-style: groove;
-  background-color: #e6e6e6;
+  height: min-content;
   padding: 10px;
   font-size: 15px;
   letter-spacing: 3px;
@@ -76,8 +66,8 @@
   .EMAs_Image {
     display: inline-flex;
     flex-direction: column;
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
   }
 }
 
