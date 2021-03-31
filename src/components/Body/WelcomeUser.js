@@ -10,10 +10,8 @@ import {
 } from "react-router-dom";
 
 
-function WelcomeUser () {
-    const refreshPage = ()=> {
-         window.location.reload();
-    }
+class WelcomeUser extends React.Component {
+    render() {
         return (     
             <div>
                 <h5 className="std-msg">
@@ -24,8 +22,7 @@ function WelcomeUser () {
                     <div> 
                         <Link to="/howareyoufeelingtoday"
                             type="submit"
-                            className="continue"
-                            onClick={refreshPage} >
+                            className="continue">
                             Let's get started!
                         </Link>
                     </div>
@@ -40,4 +37,5 @@ function WelcomeUser () {
             </div>
         )
     }
+}
 export default WelcomeUser;

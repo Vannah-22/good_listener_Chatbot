@@ -14,9 +14,9 @@ function MoodSelect () {
 
         return (
             <div>
-                <div className="std-msg">
+                <h1 className="std-msg">
                     How are you feeling today?
-                </div>
+                </h1>
 
                 <Router>
                     <div className="mood-select">

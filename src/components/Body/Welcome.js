@@ -19,8 +19,6 @@ class Welcome extends React.Component {
                     and I am here to provide you with support!
                 </h5>
 
-                <h5 className="std-msg"> What's your name? </h5>
-
                 <p> 
                     <input type="text" id="usersName" name="the_name"
                     placeholder="What can I call you?" required autofocus />
