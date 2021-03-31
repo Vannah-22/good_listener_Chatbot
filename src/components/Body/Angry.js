@@ -13,7 +13,7 @@ function madReturns () {
     var random=madReturns[Math.floor(Math.random() * madReturns.length)];
     document.getElementById("griefReturns").innerHTML=random;
 
-    return ()
+    return 
     }
 
     console.log(madReturns);
@@ -48,6 +48,7 @@ function madReturns () {
 //             </div>
 //         )
 // export default Angry;
+export default madReturns;
 
 
     
