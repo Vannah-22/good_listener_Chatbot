@@ -11,7 +11,7 @@ function madReturns () {
     "Don't forget to reach out to family and friends in your time of need")
     
     var random=madReturns[Math.floor(Math.random() * madReturns.length)];
-    document.getElementById("griefReturns").innerHTML=random;
+    document.getElementById("griefReturns").innerText=random;
 
     return 
     }
