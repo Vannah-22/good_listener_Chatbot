@@ -17,7 +17,7 @@
   text-decoration-line: none;
   font-size: x-large;
   color: #1a1a1a;
-  font-family: DotGothic16;
+  font-family: 'Playmegames';
   border-color:#ff5c61;
   background-color: #ff7075;
   width: 100px;
@@ -40,7 +40,7 @@
   text-decoration-line: none;
   font-size: x-large;
   color: #1a1a1a;
-  font-family: DotGothic16;
+  font-family: 'Playmegames';
   border-color: #ffca3a;
   background-color: #ffd35c;
   width: 100px;
@@ -63,7 +63,7 @@
   text-decoration-line: none;
   font-size: x-large;
   color: #1a1a1a;
-  font-family: DotGothic16;
+  font-family: 'Playmegames';
   border-color:#93cef3;
   background-color: #93cdf0;
   width: 100px;
@@ -77,7 +77,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -92,7 +91,7 @@
   box-shadow: 3px 3px #134e74;
   text-decoration-line: none;
   color: #2a2828;
-  font-family: DotGothic16;
+  font-family: 'Playmegames';
 }
 .std-mood-buttons:hover {
   background-color:#b9b9b8;

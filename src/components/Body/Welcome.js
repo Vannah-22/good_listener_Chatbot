@@ -10,7 +10,19 @@ import {
 } from "react-router-dom";
 
 
+
+
 class Welcome extends React.Component {
+    processInput() {
+        // get the input from the user
+        let userInput = document.getElementById("usersName");
+        
+        //store that input as the value of our state Varaible
+        this.props.setUsername(userInput);
+    }
+
+
+
     render() {
         return (     
             <div className = "welcome">
@@ -28,7 +40,13 @@ class Welcome extends React.Component {
                     <div> 
                         <Link to="/welcomeuser"
                             type="submit" 
-                            className="continue"> 
+                            className="continue"
+                            onClick={
+                                () => {
+                                        this.processInput=();
+                                }       
+                            }> 
+                            
                             Continue
                         </Link>
                     </div>

@@ -18,20 +18,20 @@ class Happy extends React.Component {
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/happy/gratitude"
                             type="button"
-                            className="std-buttons"
+                            className="std-mood-buttons"
                             id="gratitude"> 
                             I am grateful!
                         </Link>  
 
                         <Link to="/howareyoufeelingtoday/happy/prideful"
                             type="button"
-                            className="std-buttons"> 
+                            className="std-mood-buttons"> 
                             I am proud!
                         </Link>
 
                         <Link to="/howareyoufeelingtoday/happy/excitement"
                             type="button"
-                            className="std-buttons"> 
+                            className="std-mood-buttons"> 
                             I feel excited!
                         </Link>
 

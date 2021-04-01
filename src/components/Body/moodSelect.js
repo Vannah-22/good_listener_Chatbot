@@ -18,7 +18,6 @@ function MoodSelect () {
                     How are you feeling today?
                 </h1>
 
-                <Router>
                     <div className="mood-select">
                         <Link to="/howareyoufeelingtoday/angry"
                             type="button"
@@ -39,7 +38,6 @@ function MoodSelect () {
                         </Link>
                     </div>
                     
-                </Router>
             </div>
         )
     }

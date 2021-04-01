@@ -16,10 +16,14 @@ import Happy from './components/Body/Happy';
 // import Happy_Returns from './components/Body/Happy_Returns';
 import Sad from './components/Body/Sad';
 import EMA from './EMApxArt.png';
-
+import {useState} from 'react';
 
 
 function App() {
+
+		const [username, setUsername] = useState("User");
+
+
     return (
       <div className="App">
         	<div>
@@ -33,7 +37,9 @@ function App() {
 
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<Sad />
+										<Sad
+											option1="button1text"
+											link1="zxcfvghjk" />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/lonliness">
@@ -91,11 +97,15 @@ function App() {
 								</Route>
 								
 								<Route path="/welcomeuser">
-									<WelcomeUser />
+									<WelcomeUser 
+									username={username}
+									/>
 								</Route>
 
 								<Route exact path="/">
-									<Welcome />
+									<Welcome
+										setUsername={setUsername}
+										 />
 								</Route>
                   </Switch>
               	</div>			

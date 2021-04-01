@@ -27,7 +27,7 @@
   word-spacing: 1em;
   text-align: center;
   color: #000000;
-  font-family: 'DotGothic16', sans-serif;
+  font-family: 'Playmegames', sans-serif;
 }
 
 
@@ -38,7 +38,7 @@
   border-color:#a1db43;
   border-radius: 25px;
   font-size: large;
-  font-family: DotGothic16;
+  font-family: 'Playmegames';
   color: darkgreen;
   text-decoration: none;
   width: 10em;
@@ -50,7 +50,7 @@
 @media (max-width: 800px) and (max-height: 400px) {
   .EMA__header {
     display: flex;
-    font-family: DotGothic16;
+    font-family: 'Playmegames';
     font-weight: 800;
     font-size: 30px;
     text-decoration: none !important;
@@ -71,17 +71,10 @@
   }
 }
 
+
 @font-face {
   font-family: "Playmegames";
   font-style: normal;
   font-weight: normal;
-  url: ("./fonts/DotGothic16.ttf") format("truetype");
-  src: local("DotGothic16");
+  src: local("Playmegames"), url("./fonts/PlaymegamesReguler-2OOee.ttf") format("truetype");
 }
-
-/* @font-face {
-  font-family: "DotGothic16";
-  src: local("DotGothic16");
-  url: ("./fonts/DotGothic16-Regular.ttf") format("truetype");
-  font-weight: normal;
-} */
