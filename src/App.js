@@ -13,7 +13,6 @@ import Footer from './components/Footer/Footer';
 import MoodSelect from './components/Body/MoodSelect';
 import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
-// import Happy_Returns from './components/Body/Happy_Returns';
 import Sad from './components/Body/Sad';
 import EMA from './EMApxArt.png';
 import {useState} from 'react';
@@ -65,10 +64,6 @@ function App() {
 									<Route path="howareyoufeelingtoday/happy/excitement">
 										<Happy />
 									</Route>
-
-									{/* <Route path="howareyoufeelingtoday/happy">
-										<Happy_Returns />
-									</Route>" */}
 
 								<Route path="/howareyoufeelingtoday/happy"> 
 									<Happy />
