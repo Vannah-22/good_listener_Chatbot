@@ -1,7 +1,6 @@
 import React from 'react';
 import './MoodSelect.css';
 import {
-    BrowserRouter as Router, 
     Link
 } from "react-router-dom";
 import './Happy_Returns';
@@ -14,7 +13,6 @@ class Happy extends React.Component {
                     I'm glad you're happy! Can you explain why?
                 </h5>
                 
-                <Router>
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/happy/gratitude"
                             type="button"
@@ -37,7 +35,6 @@ class Happy extends React.Component {
 
 
                     </div>
-                </Router>
             </div>
         )
     }

@@ -1,7 +1,6 @@
 import React from 'react';
 import './MoodSelect.css';
-import {
-    BrowserRouter as Router, 
+import { 
     Link
 } from "react-router-dom";
 
@@ -13,7 +12,6 @@ class Angry extends React.Component {
                     I'm sorry you feel this way. Can you explain why?
                 </h5>
 
-                <Router>
                     <div>
                         <button className="std-mood-buttons"
                                 onClick="mad-returns()" 
@@ -21,7 +19,6 @@ class Angry extends React.Component {
                                 id="mad-grief">
                         </button>
                     </div>
-                </Router>
             </div>
         )
     }

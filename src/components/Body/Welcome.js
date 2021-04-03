@@ -36,16 +36,12 @@ class Welcome extends React.Component {
                     placeholder="What can I call you?" required autofocus />
                 </p>
 
-                <Router> 
+                
                     <div> 
                         <Link to="/welcomeuser"
                             type="submit" 
                             className="continue"
-                            onClick={
-                                () => {
-                                        this.processInput=();
-                                }       
-                            }> 
+                            > 
                             
                             Continue
                         </Link>
@@ -56,7 +52,6 @@ class Welcome extends React.Component {
                             <WelcomeUser />
                         </Route>
                     </Switch>
-                </Router>
 
             </div>
         )

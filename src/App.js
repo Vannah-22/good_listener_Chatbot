@@ -38,8 +38,7 @@ function App() {
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
 										<Sad
-											option1="button1text"
-											link1="zxcfvghjk" />
+											option1="I am grieving" />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/lonliness">

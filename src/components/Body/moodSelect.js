@@ -3,7 +3,6 @@ import './MoodSelect.css';
 import './Happy';
 
 import {
-    BrowserRouter as Router, 
     Link
 } from "react-router-dom";
 

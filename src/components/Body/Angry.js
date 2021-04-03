@@ -1,7 +1,6 @@
 import React from 'react';
 import './MoodSelect.css';
 import {
-    BrowserRouter as Router, 
     Link
 } from "react-router-dom";
 
@@ -13,7 +12,6 @@ class Angry extends React.Component {
                     I'm sorry you feel this way. Can you explain why?
                 </h5>
 
-                <Router>
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/angry/grief"
                             type="button"
@@ -33,7 +31,6 @@ class Angry extends React.Component {
                             I am scared
                         </Link>
                         </div>
-                </Router>
             </div>
         )
     }
