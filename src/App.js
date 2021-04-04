@@ -18,8 +18,15 @@ import EMA from './EMApxArt.png';
 import {useState} from 'react';
 
 
+// initial value for the useState variable is "User"; the default name;
+// name of the useState variable: 'username';
+// name of the method that changes the username (setVarName): 'setUsername';
+// DEFINE {useState};
+// WelcomeUser component needs access to 'username' variable, so pass that into
+	// <Route path= "/welcomeuser">  <WelcomeUser username={username} /> </Route>;
+// Welcome component needs access to 'setUsername' method, so pass that into
+	// <Route exact path = "/"> <Welcome setUsername={setUsername} /> </Route>;
 function App() {
-
 		const [username, setUsername] = useState("User");
 
 

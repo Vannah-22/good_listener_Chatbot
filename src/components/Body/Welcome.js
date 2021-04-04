@@ -15,7 +15,8 @@ import {
 class Welcome extends React.Component {
     processInput() {
         // get the input from the user
-        let userInput = document.getElementById("usersName");
+        // we want the VALUE of the element, not the whole HTML element
+        let userInput = document.getElementById("usersName").value;
         
         //store that input as the value of our state Varaible
         this.props.setUsername(userInput);
@@ -41,8 +42,9 @@ class Welcome extends React.Component {
                         <Link to="/welcomeuser"
                             type="submit" 
                             className="continue"
-                            > 
-                            
+                            onClick={
+                                () => this.processInput() 
+                            }>
                             Continue
                         </Link>
                     </div>

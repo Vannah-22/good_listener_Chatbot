@@ -22,7 +22,7 @@ class Angry extends React.Component {
                         <Link to="/howareyoufeelingtoday/angry/frustration"
                             type="button"
                             className="std-mood-buttons"> 
-                            I feel alone
+                            I feel frustrated
                         </Link>
 
                         <Link to="/howareyoufeelingtoday/angry/fearful"

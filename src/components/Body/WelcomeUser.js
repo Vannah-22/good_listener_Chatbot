@@ -14,7 +14,7 @@ class WelcomeUser extends React.Component {
         return (     
             <div>
                 <h5 className="std-msg">
-                    Nice to meet you, (user).
+                    Nice to meet you, {this.props.username}
                 </h5>
 
                     <div> 
@@ -24,12 +24,6 @@ class WelcomeUser extends React.Component {
                             Let's get started!
                         </Link>
                     </div>
-
-                {/* <Switch>
-                    <Route path="/howareyoufeelingtoday">
-						<MoodSelect />
-					</Route>
-                </Switch> */}
 
             </div>
         )
