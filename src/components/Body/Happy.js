@@ -4,7 +4,7 @@ import {
     Link
 } from "react-router-dom";
 import Typing from 'react-typing-animation';
-// import EMA from './src/components/EMAgpxl.png';
+// import EMA from './src/components/EMAhappy.png';
 
 class Happy extends React.Component {
     render() {

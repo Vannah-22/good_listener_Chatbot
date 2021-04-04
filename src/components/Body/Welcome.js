@@ -11,7 +11,7 @@ import {
 
 import Typing from 'react-typing-animation';
 
-// import EMA from './public/EMAcontent.png';
+// import EMA from './public/EMA.png';
 
 
 
