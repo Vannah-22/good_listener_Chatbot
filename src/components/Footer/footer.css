@@ -22,4 +22,14 @@
     align-content: flex-end;
     text-align: right;
     list-style-type: none;  
+    text-decoration: none;
+}
+
+.resources__links {
+    text-decoration: none;
+    color: orangered;
+}
+
+.resources__numbers {
+    color: orangered;
 }

@@ -15,12 +15,12 @@ class Footer extends React.Component {
 
                 <ul className="resources">
                     <li> 
-                        <a href= "https://suicidepreventionlifeline.org" target="_blank"> 
+                        <a className="resources__links" href= "https://suicidepreventionlifeline.org" target="_blank"> 
                             National Suicide Prevention Lifeline Website 
                         </a>
                     </li>
                     <li> 
-                        <p> 800-273-8255  </p>
+                        <p className="resources__numbers"> 800-273-8255  </p>
                     </li>
                     
                 </ul>
