@@ -4,14 +4,18 @@ import {
     Link
 } from "react-router-dom";
 import './Happy_Returns';
+import Typing from 'react-typing-animation';
 
 class Happy extends React.Component {
     render() {
         return (     
             <div>
-                <h5 className="std-msg">
-                    I'm glad you're happy! Can you explain why?
-                </h5>
+                <Typing> 
+                    <p className="std-msg">
+                        I'm glad you're happy! Can you explain why?
+                    </p>
+                </Typing>
+                
                 
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/happy/gratitude"

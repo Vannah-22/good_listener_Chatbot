@@ -4,20 +4,6 @@
   justify-content: space-evenly;
 }
 
-.std-msg {
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  height: max-content;
-  flex-wrap: wrap;
-  font-size: 24px;
-  letter-spacing: 3px;
-  word-spacing: 1em;
-  text-align: center;
-  color: #120e1b;
-  font-family: 'Playmegames', sans-serif;
-}
 
 #angry {
   display: flex;
@@ -25,17 +11,18 @@
   justify-content: center;
   align-content: center;
   margin: 40px;
+  padding: 10px;
   border-style: ridge;
-  border-radius: 100%;
-  box-shadow:3px 3px #44315e;
+  border-radius: 5px;
+  box-shadow:3px 3px #001406;
   text-decoration-line: none;
   font-size: x-large;
   color: #120e1b;
   font-family: 'Playmegames';
   border-color:#ff5c61;
   background-color: #ff7075;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 #angry:hover {
   background-color: #fa4d53;
@@ -48,17 +35,18 @@
   justify-content: center;
   align-content: center;
   margin: 40px;
+  padding: 7px;
   border-style: ridge;
-  border-radius: 100%;
-  box-shadow:3px 3px #44315e;
+  border-radius: 5px;
+  box-shadow:3px 3px #001406;
   text-decoration-line: none;
   font-size: x-large;
   color: #120e1b;
   font-family: 'Playmegames';
   border-color: #ffca3a;
   background-color: #ffd35c;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 #happy:hover {
   background-color:#fdc62f;
@@ -72,16 +60,16 @@
   align-content: center;
   margin: 40px;
   border-style: ridge;
-  border-radius: 100%;
-  box-shadow:3px 3px #44315e;
+  border-radius: 5px;
+  box-shadow:3px 3px #001406;
   text-decoration-line: none;
   font-size: x-large;
   color: #120e1b;
   font-family: 'Playmegames';
   border-color:#93cef3;
   background-color: #93cdf0;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 #sad:hover {
   background-color: #3cacf1;
@@ -94,19 +82,19 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  width: 6em;
-  height: 6em;
+  width: 90px;
+  height: 90px;
   margin: 40px;
   padding: 10px;
   border-style: ridge;
-  border-radius: 100%;
+  border-radius: 5px;
   border-color: #dad8d5;
   background-color: #e2e2e1;
-  box-shadow: 3px 3px #44315e;
+  box-shadow: 3px 3px #001406;
   text-decoration-line: none;
   color: #2a2828;
   font-family: 'Playmegames';
-  text-align:
+  text-align: center;
 }
 
 .std-mood-buttons:hover {

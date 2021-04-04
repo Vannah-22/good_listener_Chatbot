@@ -3,14 +3,20 @@ import './MoodSelect.css';
 import {
     Link
 } from "react-router-dom";
+import EMA from './src/components/sympathyEMA_green_pixel.png';
+import Typing from 'react-typing-animation';
 
 class Sad extends React.Component {
     render() {
         return (     
             <div>
-                <h5 className="std-msg">
-                    I'm sorry you feel this way. Can you explain why?
-                </h5>
+                <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
+                <Typing>
+                    <p className="std-msg">
+                        I'm sorry you feel this way. Can you explain why?
+                    </p>
+                </Typing>
+                
 
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/sad/grief"

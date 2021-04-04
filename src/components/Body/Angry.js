@@ -4,13 +4,18 @@ import {
     Link
 } from "react-router-dom";
 
+import Typing from 'react-typing-animation';
+
 class Angry extends React.Component {
     render() {
         return (     
             <div>
-                <h5 className="std-msg">
-                    I'm sorry you feel this way. Can you explain why?
-                </h5>
+                <Typing> 
+                    <p className="std-msg">
+                        I'm sorry you feel this way. Can you explain why?
+                    </p>
+                </Typing>
+                
 
                     <div className= "mood-select">
                         <Link to="/howareyoufeelingtoday/angry/grief"
