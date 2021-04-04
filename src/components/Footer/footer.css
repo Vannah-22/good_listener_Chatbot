@@ -1,7 +1,25 @@
 .footer {
     display: flex;
-    text-align: center;
+    margin: 5px;
+    padding: 10px;
     margin-top: 2rem;
     font-family: 'Playmegames';
     letter-spacing: 2px;
+}
+
+.footer__info {
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Playmegames';
+    letter-spacing: 2px;
+    color: #d1d1d1;
+}
+
+.resources {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    text-align: right;
+    list-style-type: none;  
 }

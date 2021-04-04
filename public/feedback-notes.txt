@@ -1,0 +1,17 @@
+let input = document.querySelector('.nameInput");
+let name = input.value;
+
+modify with routing example
+navlink around button takes you to the first route
+
+font spacing, letter spacing, play tech fonts
+
+
+lavender background (lighter background)
+bring in space for buttons 
+add padding for buttons
+create 'snappy' response time for users
+file management/organization
+props component constructor
+route-mapping: navlink routes, route paths
+flexbox!
