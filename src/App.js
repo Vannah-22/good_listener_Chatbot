@@ -14,7 +14,7 @@ import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
 import {useState} from 'react';
-
+import EMA from './public/EMAcontent.png';
 
 // initial value for the useState variable is "User"; the default name;
 // name of the useState variable: 'username';
@@ -36,6 +36,7 @@ function App() {
                <div>
                   <header> 
                     <Header />
+										<img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
                   </header>
      							
                   <Switch>
