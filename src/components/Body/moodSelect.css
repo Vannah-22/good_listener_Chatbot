@@ -4,6 +4,20 @@
   justify-content: space-evenly;
 }
 
+.std-msg {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: max-content;
+  flex-wrap: wrap;
+  font-size: 24px;
+  letter-spacing: 3px;
+  word-spacing: 1em;
+  text-align: center;
+  color: #120e1b;
+  font-family: 'Playmegames', sans-serif;
+}
 
 #angry {
   display: flex;
@@ -92,8 +106,9 @@
   text-decoration-line: none;
   color: #2a2828;
   font-family: 'Playmegames';
-  text-align: center;
+  text-align:
 }
+
 .std-mood-buttons:hover {
   background-color:#b9b9b8;
 }

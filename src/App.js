@@ -30,6 +30,7 @@ function App() {
 		const [username, setUsername] = useState("User");
 
 
+
     return (
       <div className="App">
         	<div>
@@ -94,7 +95,9 @@ function App() {
 								</Route>
 
 								<Route path="/howareyoufeelingtoday">
-									<MoodSelect />
+									<MoodSelect
+									username={username} 
+									/>
 								</Route>
 								
 								<Route path="/welcomeuser">

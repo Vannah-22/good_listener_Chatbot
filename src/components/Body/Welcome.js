@@ -9,6 +9,8 @@ import {
     Link
 } from "react-router-dom";
 
+import Typing from 'react-typing-animation';
+
 
 
 
@@ -22,15 +24,24 @@ class Welcome extends React.Component {
         this.props.setUsername(userInput);
     }
 
+    AnimatedTypingComponent = () => (
+        <Typing>
+            <span>This span will get typed.</span>
+        </Typing>
+    );
+
 
 
     render() {
         return (     
             <div className = "welcome">
-                <p className="std-msg">
-                    I'm an Emotion Management Assistant 
-                    and I am here to provide you with support!
-                </p>
+                <Typing> 
+                    <p className="std-msg">
+                        Hi, my name E.M.A. I'm an Emotion Management Assistant 
+                        and I am here to provide you with support!
+                    </p>
+                </Typing>
+                
 
                 <p> 
                     <input type="text" id="usersName" name="the_name"
