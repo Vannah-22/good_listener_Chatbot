@@ -13,7 +13,7 @@ class MoodSelect extends React.Component {
                     <div>
                         <Typing> 
                             <p className="std-msg">
-                                How are you feeling today?
+                                How are you feeling today, {this.props.username}?
                             </p>
                         </Typing>
                         

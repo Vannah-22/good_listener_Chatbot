@@ -1,8 +1,12 @@
 import React from 'react';
 import './MoodSelect.css';
-import {
-    Link
-} from "react-router-dom";
+
+// var gratitude = 
+//     ["Gratitude is a great habit; keep it the good work!", 
+//     "Don't forget to thank the people that support you when you needed it the most!",
+//     "I'm grateful to talk to someone like you!"];
+    
+
 
 class Happy extends React.Component {
     render() {
