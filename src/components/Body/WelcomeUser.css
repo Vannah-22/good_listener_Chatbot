@@ -1,0 +1,21 @@
+.std-msg {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: max-content;
+  flex-wrap: wrap;
+  font-size: 24px;
+  letter-spacing: 3px;
+  word-spacing: 1em;
+  text-align: center;
+  color: #120e1b;
+  font-family: 'Playmegames', sans-serif;
+}
+
+@media (max-width: 400px) and (max-height: 800px) {
+  .std-msg {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}

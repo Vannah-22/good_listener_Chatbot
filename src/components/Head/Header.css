@@ -11,10 +11,11 @@
     text-decoration-line: none;
 }
 
-@media (max-width: 800px) and (max-height: 400px) {
+@media (max-width: 400px) and (max-height: 800px) {
     .header {
         display: flex;
-        font-size: 15px;
+        font-size: 3rem;
+        letter-spacing: 1rem;
         text-decoration: none !important;
           }
     }

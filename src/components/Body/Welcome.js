@@ -27,10 +27,10 @@ class Welcome extends React.Component {
     render() {
         return (     
             <div className = "welcome">
-                <h5 className="std-msg">
+                <p className="std-msg">
                     I'm an Emotion Management Assistant 
                     and I am here to provide you with support!
-                </h5>
+                </p>
 
                 <p> 
                     <input type="text" id="usersName" name="the_name"
