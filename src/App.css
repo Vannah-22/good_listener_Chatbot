@@ -1,5 +1,5 @@
 * {
-  background-color: #1982c4;
+  background-color: #6a4c93;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -12,22 +12,21 @@
   width: 15rem;
   height: 15rem;
   border-radius: 5px;
-  border: 10px solid #838383;
-  border-style: groove;
-  background-color:#bae576;
+  border: 5px dashed #b4a1ce;
 }
 
 .std-msg {
   display: inline-flexbox;
   margin: auto;
-  width: max-content;
-  height: min-content;
+  height: max-content;
+  width: 600px;
+  flex-wrap: wrap;
   padding: 10px;
-  font-size: 15px;
+  font-size: 24px;
   letter-spacing: 3px;
   word-spacing: 1em;
   text-align: center;
-  color: #000000;
+  color: #120e1b;
   font-family: 'Playmegames', sans-serif;
 }
 
@@ -45,30 +44,21 @@
   width: 10em;
   height: 2em;
   background-color: #bae576;
-  box-shadow:3px 3px #134e74;
+  box-shadow:3px 3px #44315e;
 }
 
 @media (max-width: 800px) and (max-height: 400px) {
-  .EMA__header {
-    display: flex;
-    font-family: 'Playmegames';
-    font-weight: 800;
-    font-size: 30px;
-    text-decoration: none !important;
-  }
-
   .std-msg {
     display:flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
   }
 
   .EMAs_Image {
     display: inline-flex;
     flex-direction: column;
-    width: 5rem;
-    height: 5rem;
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -79,3 +69,21 @@
   font-weight: normal;
   src: local("Playmegames"), url("./fonts/PlaymegamesReguler-2OOee.ttf") format("truetype");
 }
+
+/* techno_green scheme:
+   #001406
+   #00330f
+   #05681e
+   #27a90d
+   #2ebf0d
+   #c4ff0e
+*/
+
+/* techno_purple scheme:
+  #120e1b
+  #44315e
+  #6a4c93
+  #9e87c0
+  #b4a1ce
+  #eeeeee
+*/

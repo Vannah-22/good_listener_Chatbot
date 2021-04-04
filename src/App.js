@@ -14,7 +14,7 @@ import MoodSelect from './components/Body/MoodSelect';
 import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
-import EMA from './EMApxArt.png';
+import EMA from './EMA_purple_pixel.png';
 import {useState} from 'react';
 
 

@@ -13,10 +13,10 @@
   margin: 40px;
   border-style: ridge;
   border-radius: 100%;
-  box-shadow:3px 3px #134e74;
+  box-shadow:3px 3px #44315e;
   text-decoration-line: none;
   font-size: x-large;
-  color: #1a1a1a;
+  color: #120e1b;
   font-family: 'Playmegames';
   border-color:#ff5c61;
   background-color: #ff7075;
@@ -36,10 +36,10 @@
   margin: 40px;
   border-style: ridge;
   border-radius: 100%;
-  box-shadow:3px 3px #134e74;
+  box-shadow:3px 3px #44315e;
   text-decoration-line: none;
   font-size: x-large;
-  color: #1a1a1a;
+  color: #120e1b;
   font-family: 'Playmegames';
   border-color: #ffca3a;
   background-color: #ffd35c;
@@ -59,10 +59,10 @@
   margin: 40px;
   border-style: ridge;
   border-radius: 100%;
-  box-shadow:3px 3px #134e74;
+  box-shadow:3px 3px #44315e;
   text-decoration-line: none;
   font-size: x-large;
-  color: #1a1a1a;
+  color: #120e1b;
   font-family: 'Playmegames';
   border-color:#93cef3;
   background-color: #93cdf0;
@@ -88,10 +88,11 @@
   border-radius: 100%;
   border-color: #dad8d5;
   background-color: #e2e2e1;
-  box-shadow: 3px 3px #134e74;
+  box-shadow: 3px 3px #44315e;
   text-decoration-line: none;
   color: #2a2828;
   font-family: 'Playmegames';
+  text-align: center;
 }
 .std-mood-buttons:hover {
   background-color:#b9b9b8;
