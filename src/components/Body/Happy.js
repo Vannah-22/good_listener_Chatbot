@@ -3,13 +3,14 @@ import './MoodSelect.css';
 import {
     Link
 } from "react-router-dom";
-import './Happy_Returns';
 import Typing from 'react-typing-animation';
+import EMA from './src/components/EMAgpxl.png';
 
 class Happy extends React.Component {
     render() {
         return (     
             <div>
+                <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
                 <Typing> 
                     <p className="std-msg">
                         I'm glad you're happy! Can you explain why?

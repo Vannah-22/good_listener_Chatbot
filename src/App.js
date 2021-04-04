@@ -14,7 +14,7 @@ import MoodSelect from './components/Body/MoodSelect';
 import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
-import EMA from './components/EMA_green_pixel_sad.png';
+
 import {useState} from 'react';
 
 
@@ -38,7 +38,7 @@ function App() {
                <div>
                   <header> 
                     <Header />
-										<img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
+										
                   </header>
      							
 
