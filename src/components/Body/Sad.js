@@ -3,14 +3,15 @@ import './MoodSelect.css';
 import {
     Link
 } from 'react-router-dom';
-import sadEMA from './src/components/EMAgpxSAD.png';
+
+// import sadEMA from './src/components/EMAgpxSAD.png';
 import Typing from 'react-typing-animation';
 
 class Sad extends React.Component {
     render() {
         return (     
             <div>
-                <img className="EMAs_Image" src= {sadEMA} alt="sympathy_protocol" />
+                {/* <img className="EMAs_Image" src= {sadEMA} alt="sympathy_protocol" /> */}
                 <Typing>
                     <p className="std-msg">
                         I'm sorry you feel this way. Can you explain why?

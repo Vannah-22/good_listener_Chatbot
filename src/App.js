@@ -14,7 +14,6 @@ import MoodSelect from './components/Body/MoodSelect';
 import Angry from './components/Body/Angry';
 import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
-
 import {useState} from 'react';
 
 
@@ -38,10 +37,8 @@ function App() {
                <div>
                   <header> 
                     <Header />
-										
                   </header>
      							
-
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
 										<Sad
@@ -95,9 +92,7 @@ function App() {
 								</Route>
 
 								<Route path="/howareyoufeelingtoday">
-									<MoodSelect
-									username={username} 
-									/>
+									<MoodSelect />
 								</Route>
 								
 								<Route path="/welcomeuser">
