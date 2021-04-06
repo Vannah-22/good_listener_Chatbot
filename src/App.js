@@ -11,6 +11,7 @@ import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 import MoodSelect from './components/Body/MoodSelect';
 import Angry from './components/Body/Angry';
+import AngryGrief from './components/Body/angryGrief';
 import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
 import {useState} from 'react';
@@ -41,8 +42,7 @@ function App() {
      							
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<Sad
-											option1="I am grieving" />
+										<Sad />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/lonliness">
@@ -76,7 +76,7 @@ function App() {
 
 								
 									<Route path="howareyoufeelingtoday/angry/grief">
-										<Angry />
+										<AngryGrief />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/angry/frustration">
