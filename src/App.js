@@ -11,7 +11,7 @@ import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 import MoodSelect from './components/Body/MoodSelect';
 import Angry from './components/Body/Angry';
-import AngryGrief from './components/Body/angryGrief';
+import AngryGrief from './components/Body/AngryGrief';
 import Happy from './components/Body/Happy';
 import Sad from './components/Body/Sad';
 import {useState} from 'react';

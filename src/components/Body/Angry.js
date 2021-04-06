@@ -20,13 +20,8 @@ function Angry() {
                 <div className= "mood-select">
                     <Link to="/howareyoufeelingtoday/angry/grief"
                         type="button"
-                        className="std-mood-buttons"
-                        onClick = {
-                            function returnCount () {
-                                setCount (count+1);
-                            }
-                        }>
-                        I am grieving {count}
+                        className="std-mood-buttons">
+                        I am grieving
                     </Link>  
 
                     <Link to="/howareyoufeelingtoday/angry/frustration"
@@ -43,11 +38,6 @@ function Angry() {
                     </div>
         </div>
     )
-
-
-
-
-
 }
         
 
@@ -76,3 +66,10 @@ function Angry() {
     
 //         console.log(madReturns);
  
+// 4/6/2021
+// onClick = {
+//     function returnCount () {
+//         setCount (count+1);
+//     }
+// }>
+// I am grieving {count}

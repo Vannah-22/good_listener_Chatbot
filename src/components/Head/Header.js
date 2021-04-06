@@ -11,7 +11,7 @@ class Header extends React.Component {
             <header>
                 <Link to = "/"
                 className="header">
-                    E.M.A. 
+                    EMA
                 </Link>
             </header>
         )
