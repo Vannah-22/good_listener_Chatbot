@@ -10,12 +10,22 @@ import Welcome from './components/Body/Welcome';
 import WelcomeUser from './components/Body/WelcomeUser';
 import Footer from './components/Footer/Footer';
 import MoodSelect from './components/Body/MoodSelect';
+
 import Angry from './components/Body/Angry';
 import AngryGrief from './components/Body/AngryGrief';
+import AngryFrustration from './components/Body/AngryFrustration';
+import AngryFearful from './components/Body/AngryFearful';
+
 import Happy from './components/Body/Happy';
+import HappyExcitement from './components/Body/HappyExcitement';
+import HappyGratitude from './components/Body/HappyGratitude';
+import HappyPrideful from './components/Body/HappyPride';
+
 import Sad from './components/Body/Sad';
+import SadGrief from './components/Body/SadGrief';
+import SadLoneliness from './components/Body/SadLoneliness';
+import SadBoredom from './components/Body/SadBoredom';
 import {useState} from 'react';
-// import EMA from './src/components/EMAhappy.png';
 
 // initial value for the useState variable is "User"; the default name;
 // name of the useState variable: 'username';
@@ -28,8 +38,6 @@ import {useState} from 'react';
 function App() {
 		const [username, setUsername] = useState("User");
 
-
-
     return (
       <div className="App">
         	<div>
@@ -37,24 +45,19 @@ function App() {
                <div>
                   <header> 
                     <Header />
-										{/* <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" /> */}
                   </header>
      							
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<Sad
-										optionA="grief"
-										optionB="lonliness" 
-										optionC="boredome"
-										/>
+										<SadGrief/>
 									</Route>
 
-									<Route path="howareyoufeelingtoday/sad/lonliness">
-										<Sad />
+									<Route path="howareyoufeelingtoday/sad/loneliness">
+										<SadLoneliness />
 									</Route>
 									
 									<Route path="howareyoufeelingtoday/sad/boredom">
-										<Sad />
+										<SadBoredom />
 									</Route>
 
 								<Route path="/howareyoufeelingtoday/sad"> 
@@ -63,15 +66,15 @@ function App() {
 									
 
 									<Route path="howareyoufeelingtoday/happy/gratitude">
-										<Happy />
+										<HappyGratitude />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/happy/prideful">
-										<Happy />
+										<HappyPrideful />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/happy/excitement">
-										<Happy />
+										<HappyExcitement />
 									</Route>
 
 								<Route path="/howareyoufeelingtoday/happy"> 
@@ -84,16 +87,17 @@ function App() {
 									</Route>
 
 									<Route path="howareyoufeelingtoday/angry/frustration">
-										<Angry />
+										<AngryFrustration/>
 									</Route>
 									
 									<Route path="howareyoufeelingtoday/angry/fearful">
-										<Angry />
+										<AngryFearful />
 									</Route>
 
 								<Route path="/howareyoufeelingtoday/angry"> 
 									<Angry />
 								</Route>
+								
 
 								<Route path="/howareyoufeelingtoday">
 									<MoodSelect 
