@@ -10,7 +10,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  margin: 40px;
   padding: 10px;
   border-style: ridge;
   border-radius: 5px;
@@ -21,8 +20,8 @@
   font-family: 'Playmegames';
   border-color:#ff5c61;
   background-color: #ff7075;
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
 }
 #angry:hover {
   background-color: #fa4d53;
@@ -34,7 +33,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  margin: 40px;
   padding: 7px;
   border-style: ridge;
   border-radius: 5px;
@@ -45,8 +43,8 @@
   font-family: 'Playmegames';
   border-color: #ffca3a;
   background-color: #ffd35c;
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
 }
 #happy:hover {
   background-color:#fdc62f;
@@ -58,7 +56,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  margin: 40px;
   border-style: ridge;
   border-radius: 5px;
   box-shadow:3px 3px #001406;
@@ -68,8 +65,8 @@
   font-family: 'Playmegames';
   border-color:#93cef3;
   background-color: #93cdf0;
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
 }
 #sad:hover {
   background-color: #3cacf1;
@@ -82,9 +79,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  width: 90px;
-  height: 90px;
-  margin: 40px;
+  width: 85px;
+  height: 85px;
   padding: 10px;
   border-style: ridge;
   border-radius: 5px;

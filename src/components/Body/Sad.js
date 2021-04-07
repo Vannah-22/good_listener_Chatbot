@@ -14,7 +14,7 @@ class Sad extends React.Component {
                 <img className="EMAs_Image" src= {sadEMA} alt="sympathy_protocol" />
                 <Typing>
                     <p className="std-msg">
-                        I'm sorry you feel this way. Can you explain why?
+                        I'm sorry you feel this way. Can you explain why? 
                     </p>
                 </Typing>
                 
