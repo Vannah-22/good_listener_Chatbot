@@ -20,9 +20,10 @@ class Welcome extends React.Component {
         // get the input from the user
         // we want the VALUE of the element, not the whole HTML element
         let userInput = document.getElementById("usersName").value;
-        
-        //store that input as the value of our state Varaible
-        this.props.setUsername(userInput);
+        if (userInput) { 
+            //store that input as the value of our state Varaible
+            this.props.setUsername(userInput);
+        }
     }
 
     AnimatedTypingComponent = () => (

@@ -16,7 +16,7 @@ class WelcomeUser extends React.Component {
                 <img className="EMAs_Image" src= {EMA} alt="content-protocol" />
                 <Typing> 
                     <p className="std-msg">
-                        It's nice to meet you, {this.props.username}
+                        It's nice to meet you, {this.props.username}!
                     </p>  
                 </Typing>
                 

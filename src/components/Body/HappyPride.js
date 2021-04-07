@@ -11,7 +11,7 @@ function HappyPride (){
                         Confidence is so important to have; 
                         You should feel very proud of your 
                         accomplishments! Keep up the good
-                        work (^.^)b
+                        work! (^.^)b
                     </p>
                 </Typing>
             </div>
