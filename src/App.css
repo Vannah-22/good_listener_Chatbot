@@ -1,10 +1,6 @@
 * {
-  background-color: #00140659;
-  margin: 2px;
-  padding: 2px;
   box-sizing: border-box;
 }
-
 /* 
 001b0a63
 #000003
@@ -19,45 +15,38 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
-  width: 15rem;
-  height: 15rem;
-  border-radius: 3px;
-  border: 5px dashed #27a90d;
+  width: 220px;
+  height: 200px;
+  border: 6px groove #2ebf0d;
 }
 
 .std-msg {
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  height: max-content;
-  flex-wrap: wrap;
-  font-size: 24px;
-  letter-spacing: 3px;
-  word-spacing: 1em;
-  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+  padding: 10px;
   text-align: center;
+  font-size: 28px;
   color: #2ebf0d;
   font-family: 'Playmegames', sans-serif;
 }
 
 .continue {
   display: flex;
-  max-width: max-content;
+  max-width: 160px;
   max-height: max-content;
   padding: 7px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   border-style: ridge;
-  border-color:#a1db43;
+  border-color:#96e01d;
   border-radius: 5px;
   font-size: large;
   font-family: 'Playmegames';
   color: #00330f;
   text-decoration: none;
-  background-color: #bae576;
+  background-color: #a0e72d;
   box-shadow:3px 3px #001406;
 }
 
