@@ -27,8 +27,6 @@ import {useState} from 'react';
 function App() {
 		const [username, setUsername] = useState("User");
 
-
-
     return (
       <div className="App">
             <Router>
@@ -38,11 +36,7 @@ function App() {
      							
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<Sad
-										optionA="grief"
-										optionB="lonliness" 
-										optionC="boredome"
-										/>
+										<Sad />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/lonliness">
@@ -80,11 +74,11 @@ function App() {
 									</Route>
 
 									<Route path="howareyoufeelingtoday/angry/frustration">
-										<Angry />
+										<AngryFrustration />
 									</Route>
 									
 									<Route path="howareyoufeelingtoday/angry/fearful">
-										<Angry />
+										<AngryFearful />
 									</Route>
 
 								<Route path="/howareyoufeelingtoday/angry"> 

@@ -84,3 +84,36 @@ function Angry() {
                     
         </div>
     ) 
+
+
+    //ATEMPTS //
+// function madReturns () {
+//     var madReturns= new Array ("I'm sorry you're grieving, but you do not have to face it alone",
+//     "You are safe to grieve at your own pace", 
+//     "Don't forget to reach out to family and friends in your time of need")
+    
+//     var random=madReturns[Math.floor(Math.random() * madReturns.length)];
+//     document.getElementById("griefReturns").innerHTML=random;
+//     }
+//     onClick={madReturns.random}> 
+
+// function madReturns () {
+//         var madReturns= new Array ("I'm sorry you're grieving, but you do not have to face it alone",
+//         "You are safe to grieve at your own pace", 
+//         "Don't forget to reach out to family and friends in your time of need")
+        
+//         var random=madReturns[Math.floor(Math.random() * madReturns.length)];
+//         document.getElementById("griefReturns").innerText=random;
+    
+//         return 
+//         }
+    
+//         console.log(madReturns);
+ 
+// 4/6/2021
+// onClick = {
+//     function returnCount () {
+//         setCount (count+1);
+//     }
+// }>
+// I am grieving {count}

@@ -1,6 +1,5 @@
 import React from 'react';
 import './MoodSelect.css';
-
 import {
     Link
 } from "react-router-dom";
