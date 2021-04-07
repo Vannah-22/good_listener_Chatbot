@@ -3,7 +3,7 @@ import './MoodSelect.css';
 import Typing from 'react-typing-animation';
 
 
-function HappyExcitement (){
+function HappyPride (){
         return (     
             <div className="std=msg">
                 <Typing> 
@@ -17,4 +17,4 @@ function HappyExcitement (){
             </div>
         )
     }
-export default HappyExcitement;
+export default HappyPride;
