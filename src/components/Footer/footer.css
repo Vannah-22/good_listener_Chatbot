@@ -14,8 +14,25 @@
 
 .footer__copyright {
     display: flex;
-    font-size: 15px;
+    line-height: 15px;
+    font-size: 12px;
     color: #eeeeee;
+}
+
+#nessa-info {
+    text-decoration: none;
+    color: #a414e6;
+}
+#nessa-info:hover {
+    color: silver;
+}
+
+#lolo-info {
+    text-decoration: none;
+    color: #e23250;
+}
+#lolo-info:hover {
+    color: goldenrod;
 }
 
 .footer__resources {

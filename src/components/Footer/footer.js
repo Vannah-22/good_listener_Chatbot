@@ -9,9 +9,17 @@ class Footer extends React.Component {
                         <p>
                             Copyright 
                             <br /> 
-                            Vanessa Jackson 2021
+                            <a 
+                                id="nessa-info"
+                                href = "https://github.com/Vannah-22" target="_blank"> 
+                                Vanessa Jackson 2021 
+                            </a>
                             <br />
-                            Art by Lauren Jackson 2021
+                            <a 
+                                id="lolo-info"
+                                href = "https://www.instagram.com/lol0_jx5/" target="_blank"> 
+                                Art by Lauren Jackson 2021 
+                            </a>
                         </p>
                 </div>
                 
