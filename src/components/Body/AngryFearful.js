@@ -11,8 +11,11 @@ function AngryFearful (){
                 <Typing> 
                     <p className="std-msg">
                         It's normal to feel scared from time to time;
-                        it's nothing to be ashamed of. You are courageous!
-                        (^w^)b
+                        <br />
+                        it's nothing to be ashamed of. 
+                        <br />
+                        You are courageous!
+                        (^u^)b
                     </p>
                 </Typing>
             </div>

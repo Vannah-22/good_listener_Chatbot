@@ -10,8 +10,11 @@ function AngryFrustration (){
                 <Typing> 
                     <p className="std-msg">
                         Frustration is a normal emotion to have when
-                        we feel overwhelmed. Whatever you are going
-                        through, you can overcome this challenge.
+                        we feel overwhelmed. 
+                        <br />
+                        Whatever you are going through,
+                        <br />
+                        you can overcome this challenge. (^.^)b
                     </p>
                 </Typing>
             </div>
