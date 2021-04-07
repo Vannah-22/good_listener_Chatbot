@@ -47,7 +47,7 @@ function App() {
      							
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<Sad />
+										<SadGrief />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/loneliness">
@@ -86,7 +86,6 @@ function App() {
 
 									<Route path="howareyoufeelingtoday/angry/frustration">
 										<AngryFrustration/>
-										<AngryFrustration />
 									</Route>
 									
 									<Route path="howareyoufeelingtoday/angry/fearful">
