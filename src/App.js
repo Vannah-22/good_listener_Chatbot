@@ -40,16 +40,14 @@ function App() {
 
     return (
       <div className="App">
-        	<div>
             <Router>
-               <div>
                   <header> 
                     <Header />
                   </header>
      							
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<SadGrief/>
+										<Sad />
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/loneliness">
@@ -88,6 +86,7 @@ function App() {
 
 									<Route path="howareyoufeelingtoday/angry/frustration">
 										<AngryFrustration/>
+										<AngryFrustration />
 									</Route>
 									
 									<Route path="howareyoufeelingtoday/angry/fearful">
@@ -116,12 +115,9 @@ function App() {
 										setUsername={setUsername}
 										 />
 								</Route>
-                  </Switch>
-              	</div>			
+                  </Switch>		
             </Router>
-        </div>
-      	<Footer />
-            
+      	<Footer />     
     </div>
     )
 }

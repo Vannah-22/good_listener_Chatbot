@@ -36,7 +36,7 @@ class Welcome extends React.Component {
     render() {
         return (     
             <div className = "welcome">
-                <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
+                <img className="EMAs_Image" src= {EMA} alt="content-protocol" />
                 <Typing> 
                     <p className="std-msg">
                         Hi, my name E.M.A. I'm an Emotion Management Assistant 

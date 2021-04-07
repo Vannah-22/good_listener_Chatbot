@@ -1,14 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './MoodSelect.css';
 import {
     Link
 } from "react-router-dom";
 import Typing from 'react-typing-animation';
 import sadEMA from './../../img/EMAsympathy.png';
-export default Angry;
 
-function Angry() {
-    const [count, setCount] = useState(0);
+// function Angry() {
+//     const [count, setCount] = useState(0);
+
+class Angry extends React.Component {
+    render() {
     return (     
         <div>
             <img className="EMAs_Image" src= {sadEMA} alt="sympathy_protocol" />
@@ -37,41 +39,9 @@ function Angry() {
                         className="std-mood-buttons"> 
                         I am scared
                     </Link>
-                    </div>
+                </div>
         </div>
     )
+    }
 }
-        
-
-
-//ATEMPTS //
-// function madReturns () {
-//     var madReturns= new Array ("I'm sorry you're grieving, but you do not have to face it alone",
-//     "You are safe to grieve at your own pace", 
-//     "Don't forget to reach out to family and friends in your time of need")
-    
-//     var random=madReturns[Math.floor(Math.random() * madReturns.length)];
-//     document.getElementById("griefReturns").innerHTML=random;
-//     }
-//     onClick={madReturns.random}> 
-
-// function madReturns () {
-//         var madReturns= new Array ("I'm sorry you're grieving, but you do not have to face it alone",
-//         "You are safe to grieve at your own pace", 
-//         "Don't forget to reach out to family and friends in your time of need")
-        
-//         var random=madReturns[Math.floor(Math.random() * madReturns.length)];
-//         document.getElementById("griefReturns").innerText=random;
-    
-//         return 
-//         }
-    
-//         console.log(madReturns);
- 
-// 4/6/2021
-// onClick = {
-//     function returnCount () {
-//         setCount (count+1);
-//     }
-// }>
-// I am grieving {count}
+export default Angry;

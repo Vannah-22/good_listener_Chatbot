@@ -1,10 +1,5 @@
 import React from 'react';
 import './MoodSelect.css';
-
-import {
-    Link
-} from "react-router-dom";
-
 import Typing from 'react-typing-animation';
 
 
@@ -18,11 +13,6 @@ class AngryGrief extends React.Component {
                         you're safe to grieve at your own pace
                     </p>
                 </Typing>
-
-                <div> 
-                    <Link to="/howareyoufeelingtoday/angry/grief">
-                    </Link>
-                </div>
             </div>
         )
     }

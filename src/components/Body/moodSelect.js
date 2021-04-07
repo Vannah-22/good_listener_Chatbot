@@ -1,6 +1,5 @@
 import React from 'react';
 import './MoodSelect.css';
-
 import {
     Link
 } from "react-router-dom";
@@ -11,7 +10,7 @@ class MoodSelect extends React.Component {
     render () {
         return (
                     <div>
-                        <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
+                        <img className="EMAs_Image" src= {EMA} alt="content-protocol" />
                         <Typing> 
                             <p className="std-msg">
                                 How are you feeling today, {this.props.username}?
