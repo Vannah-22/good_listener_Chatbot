@@ -10,7 +10,7 @@ class Happy extends React.Component {
     render() {
         return (     
             <div>
-                <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
+                <img className="EMAs_Image" src= {EMA} alt="content-protocol" />
                 <Typing> 
                     <p className="std-msg">
                         I'm glad you're happy! Can you explain why?
