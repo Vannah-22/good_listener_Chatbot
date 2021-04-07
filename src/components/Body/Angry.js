@@ -4,12 +4,14 @@ import {
     Link
 } from "react-router-dom";
 import Typing from 'react-typing-animation';
+import EMA from './../../img/EMAsympathy.png';
 export default Angry;
 
 function Angry() {
     const [count, setCount] = useState(0);
     return (     
         <div>
+            <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
             <Typing> 
                 <p className="std-msg">
                     I'm sorry you feel this way. Can you explain why?

@@ -42,7 +42,11 @@ function App() {
      							
                   <Switch>
 									<Route path="howareyoufeelingtoday/sad/grief">
-										<Sad />
+										<Sad
+										optionA="grief"
+										optionB="lonliness" 
+										optionC="boredome"
+										/>
 									</Route>
 
 									<Route path="howareyoufeelingtoday/sad/lonliness">

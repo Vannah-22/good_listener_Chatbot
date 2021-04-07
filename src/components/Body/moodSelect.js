@@ -4,13 +4,14 @@ import './MoodSelect.css';
 import {
     Link
 } from "react-router-dom";
-
+import EMA from './../../img/EMAhappy.png';
 import Typing from 'react-typing-animation';
 
 class MoodSelect extends React.Component {
     render () {
         return (
                     <div>
+                        <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
                         <Typing> 
                             <p className="std-msg">
                                 How are you feeling today, {this.props.username}?

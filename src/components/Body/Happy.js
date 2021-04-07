@@ -4,13 +4,13 @@ import {
     Link
 } from "react-router-dom";
 import Typing from 'react-typing-animation';
-// import EMA from './src/components/EMAhappy.png';
+import EMA from './../../img/EMAhappy.png';
 
 class Happy extends React.Component {
     render() {
         return (     
             <div>
-                {/* <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" /> */}
+                <img className="EMAs_Image" src= {EMA} alt="EMA's Selfie" />
                 <Typing> 
                     <p className="std-msg">
                         I'm glad you're happy! Can you explain why?
