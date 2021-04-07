@@ -41,6 +41,7 @@ class Welcome extends React.Component {
                 <Typing> 
                     <p className="std-msg">
                         Hi, my name E.M.A. I'm an Emotion Management Assistant 
+                        <br />
                         and I am here to provide you with support!
                     </p>
                 </Typing>
