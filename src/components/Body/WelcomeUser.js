@@ -2,7 +2,6 @@ import React from 'react';
 import './MoodSelect';
 
 import {
-    Route,
     Link
 } from "react-router-dom";
 import EMA from './../../img/EMAhappy.png';

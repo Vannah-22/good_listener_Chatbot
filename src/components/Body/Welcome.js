@@ -3,7 +3,6 @@ import './../../App.css';
 import WelcomeUser from './WelcomeUser';
 
 import {
-    BrowserRouter as Router, 
     Switch,
     Route,
     Link
