@@ -11,8 +11,11 @@ function HappyPride (){
                 <Typing> 
                     <p className="std-msg">
                         Confidence is so important to have; 
+                        <br />
                         You should feel very proud of your 
-                        accomplishments! Keep up the good
+                        accomplishments! 
+                        <br />
+                        Keep up the good
                         work! (^.^)b
                     </p>
                 </Typing>

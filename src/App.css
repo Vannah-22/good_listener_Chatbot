@@ -35,6 +35,23 @@
   font-family: 'Playmegames', sans-serif;
 }
 
+#usersName {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeeee;
+  border: solid 5px #dddddd;
+  border-style: groove;
+  padding-left: 15px;
+  border-radius: 5px;
+  font-size: large;
+  width: 15em;
+  height: 3em;
+  font-family: 'Playmegames';
+}
+
 .continue {
   display: flex;
   max-width: 160px;
@@ -55,18 +72,31 @@
 }
 
 @media (max-width: 400px) and (max-height: 800px) {
-  .std-msg {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
   .EMAs_Image {
-    display: flex;
     width: 150px;
     height: 150px;
   }
-}
+  .std-msg {
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: center;
+    line-height: 21px;
+    font-size: 18px;
+  }
 
+  #usersName {
+    display: flex;
+    position: inherit;
+    margin-top: 60px;
+    height: 2.5em;
+  }
+
+  .continue {
+    text-align: center;
+    max-width: min-content;
+    max-height: max-content;
+  }
+}
 
 @font-face {
   font-family: "Playmegames";

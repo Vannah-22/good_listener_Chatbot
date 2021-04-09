@@ -4,7 +4,7 @@ import './Footer.css';
 class Footer extends React.Component {
     render() {
         return (     
-            <footer className = "footer">
+            <footer className="footer">
                 <div className="footer__copyright">
                         <p>
                             Copyright 

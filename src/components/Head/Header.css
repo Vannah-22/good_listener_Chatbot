@@ -19,8 +19,8 @@
 @media (max-width: 400px) and (max-height: 800px) {
     .header {
         display: flex;
+        padding-left: 40px;
         font-size: 3rem;
-        letter-spacing: 1rem;
-        text-decoration: none !important;
-          }
+        letter-spacing: 3rem;
     }
+}

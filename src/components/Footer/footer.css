@@ -48,3 +48,34 @@
 .footer__resources:hover{
     color: #ffe600d3;
 }
+
+@media (max-width: 400px) and (max-height: 800px) {
+    .footer {
+        display: flex;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .footer__resources {
+        display: flex;
+        align-content: flex-start;
+        font-size: 15px;
+        color: orangered;
+        text-align: center;
+        list-style-type: none;  
+        text-decoration: none;
+    }
+
+    #nessa-info {
+        text-decoration: none;
+        color: #a414e6;
+        font-size: 12px;
+    }
+
+    #lolo-info {
+        text-decoration: none;
+        color: #e23250;
+        font-size: 12px;
+    }
+
+}

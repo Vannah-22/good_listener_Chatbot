@@ -103,10 +103,37 @@
     flex-direction: column;
     align-items: center;
   }
+
+  #sad {
+    padding: 6px;
+    height: max-content;
+    width: 85%;
+    margin-top: 21px;
+
+  }
+
+  #happy {
+    padding: 6px;
+    height: max-content;
+    width: 85%;
+    margin-top: 21px;
+  }
+
+  #angry {
+    padding: 6px;
+    height: max-content;
+    width: 85%;
+    margin-top: 21px;
+  }
+
   .std-mood-buttons{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 6px;
+    height: max-content;
+    width: 85%;
+    margin-top: 21px;
   }
 }
   
